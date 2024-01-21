@@ -5,7 +5,7 @@
         ><img class="navLogo" src="{{ "images/logo.png" | absURL }}"
         alt="Profile Pic"/></a
       >
-      <a class="navLogoText" href="#">blueprint</a>
+      <a class="navLogoText" href={{ "" | relURL }}>blueprint</a>
     </div>
     <div>
       <ul class="navList">
@@ -13,7 +13,7 @@
         <li><a class="navListItem" href="#">Projects</a></li>
         <li><a class="navListItem" href="#">For Students</a></li>
         <li>
-          <a class="navListItem" href="#">For Nonprofits</a>
+          <a  class="navListItem" href={{ "/nonprofits" | relURL }}>For Nonprofits</a>
         </li>
       </ul>
     </div>

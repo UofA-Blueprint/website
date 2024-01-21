@@ -1,0 +1,36 @@
+.hero {
+    
+    height: 50vh;
+    background-color: #0B2538;
+    color: white;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    justify-content: space-around;
+    
+  }
+
+  .work-button{
+    color: #ffffff;
+    background-color: inherit;
+    border: 1px solid white;
+    transition: all 100ms ease-in-out;
+    padding: 14px 30px;
+  }
+  .column {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image-container {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
