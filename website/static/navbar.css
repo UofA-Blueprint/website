@@ -1,58 +1,55 @@
 .nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #0078e8;
-  height: 118px;
 }
 
 .navBarContainer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-left: 68px;
+  padding-right: 68px;
 }
 
 .navLogoContainer {
   display: flex;
   align-items: center;
-  margin-right: 160px;
 }
 
 .navLogo {
-  width: 74px;
-  height: 83px;
+  width: 60px;
+  height: 62px;
 }
 
 .navLogoText {
   text-decoration: none;
   margin-left: 10px;
+  font-size: 34px;
   font-family: "Arimo", "sans-serif";
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 46px;
-  letter-spacing: 0em;
-  text-align: left;
+  letter-spacing: 0.02em;
   color: white;
+  margin-bottom: 4px;
+}
+
+.navListContainer {
+  display: flex;
 }
 
 .navList {
-  list-style: none;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-left: 160px;
+  overflow: hidden;
+  margin-bottom: 4px;
 }
 
 .navListItem {
   text-decoration: none;
-  margin-left: 25px;
+  font-size: 20px;
+  margin-left: 31px;
+  letter-spacing: 0.03em;
   font-family: "Lato", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-align: left;
   color: white;
 }
