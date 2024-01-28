@@ -1,0 +1,55 @@
+.nav {
+  background-color: #0078e8;
+}
+
+.navBarContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-left: 68px;
+  padding-right: 68px;
+}
+
+.navLogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navLogo {
+  width: 60px;
+  height: 62px;
+}
+
+.navLogoText {
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 34px;
+  font-family: "Arimo", "sans-serif";
+  letter-spacing: 0.02em;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.navListContainer {
+  display: flex;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+.navListItem {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 31px;
+  letter-spacing: 0.03em;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
