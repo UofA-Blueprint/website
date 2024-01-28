@@ -6,26 +6,35 @@
   .container{
     display: flex;
     flex-direction: row;
-    align-items: center;
     
     justify-content: space-around;
-    padding-top: 2%;
   }
   .hero-header{
     padding-top: 0;
+    font-size: 40px;
   }
   .work-button{
     color: #ffffff;
-    font-size: small;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
     background-color: inherit;
+    margin-top: 2%;
     border: 1px solid white;
     border-radius: 5px;
-    transition: all 100ms ease-in-out;
-    padding: 5px 8px;
+    transition: background-color 0.3s ease;
+    padding: 6px 15px;
   }
+  .work-button:hover{
+    background-color: #7d9ab1;
+  }
+  #np-details{
+    font-size: 28px;
+    font-weight: 100;
+  }
+  
   .column {
     flex: 1;
-    padding: 20px 50px;
+    padding: 20px 70px;
     
   }
   .service-header{
@@ -51,9 +60,10 @@
   }
   .image-container {
     text-align: center;
+    padding-top: 2%;
   }
 
   img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }

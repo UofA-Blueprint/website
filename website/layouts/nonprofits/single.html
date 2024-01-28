@@ -3,6 +3,9 @@
     <head>
         {{- partial "head.html" . -}}
         <link rel="stylesheet" href="{{ "/nonprofits.css" | absURL }}">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+        </style>
     </head>
 <body style="margin: 0px">
     <!-- Custom layout for the nonprofits page -->
@@ -13,11 +16,11 @@
             <div class ="container">
                 <div class="column">
                     <h1 class="hero-header">For Nonprofits</h1>
-                    <p>As a partner, Blueprint will work with you to develop technology that turns your vision into a reality, completely free of charge.</p>
+                    <p id="np-details">As a partner, Blueprint will work with you to develop technology that turns your vision into a reality, completely free of charge.</p>
                     <button class="work-button">WORK WITH US</button>
                   </div>
                   <div class="column image-container">
-                    <img src={{ "images/nonprofits-puzzle.png" | absURL }} alt="for nonprofits hero img">
+                    <img src={{ "images/for-nonprofits-puzzle.svg" | absURL }} alt="for nonprofits hero img">
                   </div>
             </div> 
           </div>
