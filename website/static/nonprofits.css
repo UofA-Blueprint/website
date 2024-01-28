@@ -1,6 +1,7 @@
 .hero {
     background-color: #0B2538;
     color: white;
+    margin-bottom: 100%;
   }
 
   .container{
@@ -29,7 +30,7 @@
   }
   #np-details{
     font-size: 28px;
-    font-weight: 100;
+    font-weight: 300;
   }
   
   .column {
