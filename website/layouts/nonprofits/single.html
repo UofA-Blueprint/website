@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{- partial "head.html" . -}}
+        <link rel="stylesheet" href="{{ "/nonprofits.css" | absURL }}">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+        </style>
+    </head>
+<body style="margin: 0px">
+    <!-- Custom layout for the nonprofits page -->
+    <header>{{- partial "header.html" . -}}</header>
+
+    <main style="font-family: Lato, sans-serif;">
+        <div class="hero">
+            <div class ="container">
+                <div class="column">
+                    <h1 class="hero-header">For Nonprofits</h1>
+                    <p id="np-details">As a partner, Blueprint will work with you to develop technology that turns your vision into a reality, completely free of charge.</p>
+                    <button class="work-button">WORK WITH US</button>
+                  </div>
+                  <div class="column image-container">
+                    <img src={{ "images/for-nonprofits-puzzle.svg" | absURL }} alt="for nonprofits hero img">
+                  </div>
+            </div> 
+          </div>
+          <!--
+
+          
+          <div class="our-services">
+                <h1 class="service-header">Our Services</h1>
+                <div class="services-container">
+                    <div class="services-column">
+                        <img src="image1.jpg" alt="Image 1">
+                        <div>
+                            <h1 style="color: #0078E8" >Mobile Development</h1>
+                            <p>Mobile applications let your users download an app and access it on their phone. This might be better for applications that need to be portable or accessed with no internet connection.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="services-column">
+                        <div>
+                            <h1 style="color: #0078E8"> Web Development</h1>
+                            <p>Web applications let your users access to information from any browser. This might be better for applications that need to be publicly available or ones that help facilitate task management.</p>
+                        </div>
+                        <img src="image2.jpg" alt="Image 2">
+                    </div>
+                </div>
+          </div>-->
+    </main>
+
+    <footer>{{- partial "footer.html" . -}}</footer>
+</body>
+</html>
