@@ -1,19 +1,16 @@
 #footer-div {
-    width: 100%;
-    padding: 60px 40px; 
+    padding: 40px;
     background-color: #333333;
-}
-
-#another-div {
     display: flex; 
     justify-content: space-between; 
     color: white; 
     flex-wrap: wrap; 
+    font-family: "Lato", sans-serif;
 }
 
 .h-top {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .content-links {
