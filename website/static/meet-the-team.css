@@ -21,9 +21,7 @@
   .right {
     flex: 1;
     padding-right: 67px;
-    padding-top: 10px;
     align-self: right;
-    width: 460px; 
     height: auto;
   }
   
