@@ -63,7 +63,8 @@
     padding-top: 2%;
   }
 
-  img {
+  /* causes an error with the footer images! */
+  /* img {
     width: 100%;
     height: auto;
-  }
+  } */
