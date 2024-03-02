@@ -1,0 +1,38 @@
+.hp-block {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left {
+    flex: 9;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 66px;
+    padding-right: 65px;
+    padding-bottom: 76px;
+  }
+  
+  .right {
+    flex: 1;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    align-self: right;
+    height: auto;
+  }
+  
+  .hp-title {
+    font-family: Lato;
+    color: white;
+    font-size: 60px;
+    margin: 0px;
+  }
+  
+  .hp-txt {
+    margin-bottom: 1%;
+    font-family: Lato;
+    color: white;
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: 0em;
+  }
