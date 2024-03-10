@@ -19,6 +19,18 @@
           <img  src={{"images/home-collaboration.svg" | absURL }} alt="home collaboration image">
         </div>
       </div>
+      
+      <div class="hp-abt-block">
+        <div class="left">
+          <h1 class="hp-abt-title">{{.Params.about_us_title}}</h1>
+          <h3 class="hp-abt-txt" style="width: 550px;">{{.Params.about_us1}}</h3>
+          <h3 class="hp-abt-txt" style="width: 550px;">{{.Params.about_us2}}</h3>
+          <button class="abt-btn">{{.Params.about_us_btn}}</button>
+        </div>
+        <div class="right">
+          <img  src={{"images/home-about-us-diagram.svg" | absURL }} alt="home about us image">
+        </div>
+      </div>
     </main>
     <footer>{{- partial "footer.html" . -}}</footer>
   </body>
