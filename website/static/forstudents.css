@@ -55,3 +55,40 @@
 .join:hover {
   background-color: #3f99ed;
 }
+.application-process{
+  background-color: #ffffff;
+  display: flex;
+  font-family: Lato;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+.application-header{
+  font-size: 36px;
+  text-align: center;
+}
+.application-content{
+  margin: 0 15%;
+}
+.app-section{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.number-section{
+  flex: 0.2;
+  text-align: center;
+  font-size: 48px;
+  color: #147BE5;
+  font-weight: 700;
+}
+
+.process-section{
+  flex:0.8;
+}
+
+.process-header{
+  font-size: 24px;
+}
+.process-content{
+  font-size: 18px
+}
