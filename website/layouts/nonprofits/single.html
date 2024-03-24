@@ -24,38 +24,29 @@
           hero img">
         </div>
       </div>
+      <div class="our-services">
+        <h1 class="services-header">Our Services</h1>
+        <div class="service-row">
+          <div class="service-image">
+            <img src={{"images/monitor.svg" | absURL }} alt="Service 1">
+          </div>
+          <div class="service-content">
+            <h2 class="row-header">Web Development</h2>
+            <p style="color: #AFAFAF;">Web applications let your users access information from any browser. This might be better for applications that need to be publicly available or ones that help facilitate task management.</p>
+          </div>
+        </div>
+      
+        <div class="service-row">
+          <div class="service-content">
+            <h2 class="row-header">Mobile Development</h2>
+            <p style="color: #AFAFAF;">Mobile applications let your users download an app and access it on their phone. This might be better for applications that need to be portable or accessed with no internet connection.</p>
+          </div>
+          <div class="service-image">
+            <img src={{"images/phone.svg" | absURL }} alt="Service 2">
+          </div>
+        </div>
+    </div>
     </main>
     <footer>{{- partial "footer.html" . -}}</footer>
   </body>
 </html>
-<!--<!DOCTYPE html>
-<html lang="en">
-    <head>
-        {{- partial "head.html" . -}}
-        <link rel="stylesheet" href="{{ "/nonprofits.css" | absURL }}">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
-        </style>
-    </head>
-<body style="margin: 0px">
-     Custom layout for the nonprofits page 
-    <header>{{- partial "header.html" . -}}</header>
-
-    <main style="font-family: Lato, sans-serif;">
-        <div class="hero">
-            <div class ="container">
-                <div class="column">
-                    <h1 class="hero-header">For Nonprofits</h1>
-                    <p id="np-details">As a partner, Blueprint will work with you to develop technology that turns your vision into a reality, completely free of charge.</p>
-                    <button class="work-button">WORK WITH US</button>
-                  </div>
-                  <div class="column image-container">
-                    <img src={{ "images/for-nonprofits-puzzle.svg" | absURL }} alt="for nonprofits hero img">
-                  </div>
-            </div> 
-          </div>
-    </main>
-
-    <footer>{{- partial "footer.html" . -}}</footer>
-</body>
-</html>-->
