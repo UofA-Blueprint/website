@@ -63,28 +63,35 @@
   flex-direction: column;
   background-color: #F8F8F8;
 }
+.services-container{
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
 .services-header{
   font-size: 42px;
   text-align: center;
 }
 .service-row {
   display: flex;
-  margin-bottom: 20px;
-  font-size: 24px;
-  margin-right: 15%;
-  margin-left: 15%;
+  justify-content: space-around;
+  margin-bottom: 3%;
+  font-size: 18px;
+  
 }
-.row-header{
+.text-header{
   color: #0078e8;
   margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 24px;
 }
 
 .service-content {
   flex: 0 0 80%;
-  padding: 0 20px;
+  
 }
 
-.img {
-  max-width: 100%;
+.service-img {
+  width: 100%;
   height: auto;
 }
