@@ -78,3 +78,47 @@
     color: white;
     border: 1px solid #0078E8;
   }
+
+  .hp-projects-cont {
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center; /* Vertically center the children */
+    justify-content:center;
+    flex-direction: row;
+    padding: 20px 30px;
+  }
+
+  .hp-involved-title {
+    font-family: Lato;
+    color: black;
+    font-size: 36px;
+    margin: 0px;
+    align-self: center;
+  }
+
+  .hp-involved-cont {
+    background-color: white;
+    display: flex;
+    justify-content: center; /* Horizontally center the children */
+    align-items: center; /* Vertically center the children */
+    flex-direction: row;
+    padding: 40px 30px;
+  }
+
+  .hp-involved-sub-title {
+    font-family: Lato;
+    color: black;
+    font-size: 27px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .div_i {
+    width: 300px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+  }
+  
