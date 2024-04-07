@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
+    "/about.css" | absURL }}">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
+    </style>
+  </head>
+  <body style="margin: 0px">
+    <header>{{- partial "header.html" . -}}</header>
+    <main >
+    <div class="hero">
+        <img class="hero-img" src={{"images/TeamBondingPic.png" | absURL }} alt="team photo">
+    </div>
+    <div style="background-color: #0078E8;">
+        <div class="section-header">
+            <p>Mission</p>
+            <p>Values</p>
+            <p>Blog</p>
+        </div>
+    </div>
+    <div class="mission">
+        <div class="mission-header"> Our Mission Statement</div>
+        <p class="mission-text">To make beautiful engineering accessible and useful for those who create communities and promote public welfare.</p>
+        <button class="more-button">READ MORE</button>
+    </div>
+    </main>
+    <footer>{{- partial "footer.html" . -}}</footer>
+  </body>
+</html>

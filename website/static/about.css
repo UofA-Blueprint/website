@@ -1,0 +1,54 @@
+.hero-img{
+    width: 100%;
+}
+.hero{
+    display: flex;
+}
+.section-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #0078E8;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.mission{
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    flex-direction: column;
+    font-family: Lato;
+    justify-content: center;
+    align-items: center;
+}
+.mission-header{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    color: #0078E8;
+}
+.mission-text{
+    font-size: 24px;
+    text-align: center;
+    width: 50%;
+}
+.more-button {
+    color: #3f99ed;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    background-color: inherit;
+    border: 1px solid #3f99ed;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    padding: 8px 13px;
+    margin-top: 15px;
+    width: 135px;
+
+  }
+  
+  .more-button:hover {
+    background-color:#0078E8;
+    color: white;
+    border: 1px solid #0078E8;
+  }
+  
