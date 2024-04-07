@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
+    "/forstudents.css" | absURL }}">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
+    </style>
+  </head>
+  <body style="margin: 0px">
+    <header>{{- partial "header.html" . -}}</header>
+    <main style="background-color: #0078e8">
+      <div class="forStudentsHero">
+        <div class="left">
+          <h1 class="headerTxt">{{.Title}}</h1>
+          <h3 class="txt">{{.Content}}</h3>
+          <div class="btns">
+            <button class="join">{{.Params.join_button_text}}</button>
+          </div>
+        </div>
+        <div class="right">
+          <img style="width: 360px; height: auto;" src={{
+          "images/home-about-us-diagram.svg" | absURL }} alt="forstudents hero
+          img">
+        </div>
+      </div>
+      <div class="application-process">
+        <h1 class="application-header">Student Application Process</h1>
+        <div class="application-content">
+          <div class="app-section">
+            <div class="number-section">01</div>
+            <div class="process-section">
+              <h2 class="process-header">Applications Open</h2>
+              <p class="process-content">Before the start of Fall term (September), we will be opening our application to recruit members across different positions.</p>
+            </div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">|</div>
+            <div class="process-section"></div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">02</div>
+            <div class="process-section">
+              <h2 class="process-header">Infosessions</h2>
+              <p class="process-content">Learn more about our club and our projects during our infosessions! We will be talking about what you can expect when you join Blueprint and answer any questions you may have.</p>
+            </div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">|</div>
+            <div class="process-section"></div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">03</div>
+            <div class="process-section">
+              <h2 class="process-header">Applications Due</h2>
+              <p class="process-content">The application includes 2 short questions to help us understand your background and your motivations for joining Blueprint.</p>
+            </div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">|</div>
+            <div class="process-section"></div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">04</div>
+            <div class="process-section">
+              <h2 class="process-header">Interviews</h2>
+              <p class="process-content">An interview to learn more about your background and your experiences. This will be an opportunity to show your passion for social good and ability to problem solve. Invited candidates will be emailed to sign up for an interview slot.</p>
+            </div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">|</div>
+            <div class="process-section"></div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">05</div>
+            <div class="process-section">
+              <h2 class="process-header">Meet the Club</h2>
+              <p class="process-content">Let’s chat! We will send out invites to schedule a time to talk. At Blueprint, we want to know what inspires you most, allow you to meet our team, and answer any questions you may have!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>{{- partial "footer.html" . -}}</footer>
+  </body>
+</html>

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
-    "/meet-the-team.css" | absURL }}">
+    "/sponsors.css" | absURL }}">
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
     </style>
@@ -10,18 +10,18 @@
   <body style="margin: 0px">
     <header>{{- partial "header.html" . -}}</header>
     <main style="background-color: #0078e8">
-      <div class="team-hero">
+      <div class="forSponsorsHero">
         <div class="left">
           <h1 class="headerTxt">{{.Title}}</h1>
           <h3 class="txt">{{.Content}}</h3>
           <div class="btns">
-            <button class="work">{{.Params.work_button_text}}</button>
+            <button class="join">{{.Params.join_button_text}}</button>
           </div>
         </div>
         <div class="right">
-          <img style="width: 560px; height: 330px;"
-          src={{"images/about-us-discussion-website.svg" | absURL }} alt="meet
-          the team hero img">
+          <img style="width: 360px; height: auto;" src={{
+          "images/home-about-us-diagram.svg" | absURL }} alt="sponsors hero
+          img">
         </div>
       </div>
     </main>
