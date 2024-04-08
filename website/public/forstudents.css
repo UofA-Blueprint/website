@@ -1,0 +1,140 @@
+.forStudentsHero {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  flex: 9;
+  flex-direction: column;
+  padding-left: 66px;
+  padding-right: 70px;
+}
+
+.btns {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right {
+  flex: 1;
+  padding-right: 67px;
+  padding-top: 10px;
+  align-self: right;
+  margin-bottom: 1px;
+}
+
+.headerTxt {
+  font-family: Lato;
+  color: white;
+  font-size: 42px;
+}
+
+.txt {
+  margin-bottom: 1%;
+  font-family: Lato;
+  color: white;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0em;
+}
+
+.join {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  padding: 8px 13px;
+}
+
+.join:hover {
+  background-color: #3f99ed;
+}
+.application-process{
+  background-color: #ffffff;
+  display: flex;
+  font-family: Lato;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+.application-header{
+  font-size: 36px;
+  text-align: center;
+}
+.application-content{
+  margin: 0 15%;
+}
+.app-section{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.number-section{
+  flex: 0.2;
+  text-align: center;
+  font-size: 48px;
+  color: #147BE5;
+  font-weight: 700;
+}
+
+.process-section{
+  flex:0.8;
+}
+
+.process-header{
+  font-size: 24px;
+}
+.process-content{
+  font-size: 18px
+}
+
+.decision-criteria {
+  background-color: #F8F8F8;
+  display: flex;
+  font-family: Lato;
+  flex-direction: column;
+  padding: 5%;
+  padding-top: 0;
+}
+
+.decision-criteria-header {
+  font-size: 36px;
+  margin: 40px;
+  text-align: center;
+}
+
+.decision-criteria-content {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.criteria {
+  flex-grow: 1;
+  width: 20%;
+  margin: 15px 30px;
+  align-items: center;
+}
+
+.icon-section {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  background-color: #333333;
+}
+
+.criteria-header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.criteria-content {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}

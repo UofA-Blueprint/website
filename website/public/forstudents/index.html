@@ -1,26 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
-    "/forstudents.css" | absURL }}">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>UofA BluePrint</title>
+<link rel="icon" href="http://localhost:1313/images/logo.png" type="image/x-icon"/>
+<link rel="stylesheet" href="http://localhost:1313/navbar.css">
+<link rel="stylesheet" href="http://localhost:1313/footer-style.css">
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Arimo:700&display=swap"
+/>
+<link rel="stylesheet" href="http://localhost:1313/forstudents.css">
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
     </style>
   </head>
   <body style="margin: 0px">
-    <header>{{- partial "header.html" . -}}</header>
+    <header><nav class="nav">
+  <div class="navBarContainer">
+    <div class="navLogoContainer">
+
+      <a href="#"
+        ><img class="navLogo" src="http://localhost:1313/images/bp-logo.png"
+        alt="Profile Pic"/></a
+      >
+
+    </div>
+    <div class="navListContainer">
+      <ul class="navList">
+        <li><a class="navListItem" href=/>About Us</a></li>
+        <li><a class="navListItem" href=/projects>Projects</a></li>
+        <li><a class="navListItem" href=/forstudents>For Students</a></li>
+        <li><a  class="navListItem" href=/nonprofits>For Nonprofits</a></li>
+        <li><a class="navListItem" href=/meet-the-team>The Team</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
     <main style="background-color: #0078e8">
       <div class="forStudentsHero">
         <div class="left">
-          <h1 class="headerTxt">{{.Title}}</h1>
-          <h3 class="txt">{{.Content}}</h3>
+          <h1 class="headerTxt">For Students</h1>
+          <h3 class="txt"><p>Joining Blueprint is a great way to give back to your community. Help us build our applications and work with nonprofits!</p>
+</h3>
           <div class="btns">
-            <button class="join">{{.Params.join_button_text}}</button>
+            <button class="join">JOIN OUR TEAM</button>
           </div>
         </div>
         <div class="right">
-          <img style="width: 360px; height: auto;" src={{
-          "images/home-about-us-diagram.svg" | absURL }} alt="forstudents hero
+          <img style="width: 360px; height: auto;" src=http://localhost:1313/images/home-about-us-diagram.svg alt="forstudents hero
           img">
         </div>
       </div>
@@ -129,6 +162,70 @@
         </div>
       </div>
     </main>
-    <footer>{{- partial "footer.html" . -}}</footer>
+    <footer><div id="footer-div">
+    <div>
+        <p style="color: white; font-size: 40px; font-weight: bold;">
+            <img src="../images/logo.png" alt=""width="30">
+            blueprint
+        </p>
+        
+        <p style="font-size: 16px; color: grey;">© Blueprint 2022</p>
+    </div>
+
+    <div>
+        <h3 class="h-top">General</h3>
+        <div class="content-links">
+            <p>Home</p>
+            <p>Teams</p>
+            <p>Projects</p>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="h-top">For Students</h3>
+        <div class="content-links">
+            <p>Apply</p>
+            <p>Process</p>
+            <p>FAQs</p>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="h-top">For Nonprofits</h3>
+        <div class="content-links">
+            <p>Apply</p>
+            <p>Process</p>
+            <p>FAQs</p>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="h-top">Contact Us</h3>
+        <div class="content-links">
+            <p>
+                <img src="../images/footer-social-icons/Mail.png" alt="" width="15" color="white">
+                <a class="footer-link" href="mailto:bluep@ualberta.ca">Mail</a>
+            </p>
+            <p>
+                <img src="../images/footer-social-icons/LinkedIn.png" alt="" width="15" color="white">
+                <a class="footer-link" href="https://www.linkedin.com/company/uofa-blueprint/">LinkedIn</a>
+            </p>
+            <p>
+                <img src="../images/footer-social-icons/Instagram.png" alt="" width="15" color="white">
+                <a class="footer-link" href="https://www.instagram.com/uofablueprint/">Instagram</a>
+            </p>
+            
+            <p>
+                <img src="../images/footer-social-icons/GitHub.png" alt="" width="15" color="white">
+                <a class="footer-link" href="https://github.com/UofA-Blueprint"> GitHub</a>
+            </p>
+            <p>
+                <img src="../images/footer-social-icons/Medium.png" alt="" width="15" color="white">
+                <a class="footer-link" href="https://medium.com/@uofablueprint">Medium</a>
+            </p>
+        </div>
+    </div>
+  
+</div></footer>
   </body>
 </html>
