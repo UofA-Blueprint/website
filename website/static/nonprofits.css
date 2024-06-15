@@ -133,60 +133,60 @@ p {
   font-size: 18px
 }
 
-/** decision criteria section **/
-
 #decision-criteria-sec {
   padding: 2em 0;
-  background-color: #f9f9f9;
-  font-family: 'Lato', sans-serif; 
+  background-color: #f8f8f8;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .decision-criteria {
-  margin-top: 2em;
-  font-family: 'Lato', sans-serif; 
+  width: 60%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin-left:280px;
 }
 
 .decision-criteria h3 {
-  font-size: 1.5em;
-  text-align: center;
-  margin-bottom: 1em;
-  font-family: 'Lato', sans-serif; 
+  font-size: 36px;
+  color: var(--Dark-Blue, #0B2538);
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.4em;
 }
 
 .criteria-items {
   display: flex;
+  justify-content: center; 
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 2em;
   text-align: center;
-  font-family: 'Lato', sans-serif; 
+  gap: 2em;
 }
 
 .criteria-item {
-  flex: 1 1 30%;
+  flex: 1 1 200px;
   max-width: 200px;
-  font-family: 'Lato', sans-serif; 
+  margin-left:30px;
+  margin-right:30px;
 }
 
 .criteria-item img {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 0.5em;
+  width: 100px;
+  height: 100px;
+  margin-bottom: -1.5em;
+  
 }
 
 .criteria-item h4 {
   font-size: 1.2em;
-  margin: 0.5em 0;
-  font-family: 'Lato', sans-serif; 
+  margin-bottom: -0.5em;
 }
 
 .criteria-item p {
-  font-size: 0.9em;
-  color: #666;
-  font-family: 'Lato', sans-serif; 
+  font-size: 1em;
+  color: var(--Dark-Blue, #0B2538);
 }
 
-.criteria-item:last-child {
-  flex: 1 1 60%;
-}
+
