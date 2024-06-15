@@ -1,0 +1,80 @@
+.hp-block {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    padding: 0px 30px;
+  }
+  
+  .left {
+    flex: 9;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 66px;
+  }
+  
+  .right {
+    flex: 1;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    align-self: right;
+    height: auto;
+  }
+  
+  .hp-title {
+    font-family: Lato;
+    color: white;
+    font-size: 48px;
+    margin: 0px;
+  }
+  
+  .hp-txt {
+    margin-bottom: 1%;
+    font-family: Lato;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0em;
+  }
+
+  .hp-abt-block {
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    padding: 20px 30px;
+  }
+
+  .hp-abt-title {
+    font-family: Lato;
+    color: #0078E8;
+    font-size: 36px;
+    margin: 0px;
+  }
+
+  .hp-abt-txt {
+    margin-bottom: 1%;
+    font-family: Lato;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0em;
+  }
+
+  .abt-btn {
+    color: #3f99ed;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    background-color: inherit;
+    border: 1px solid #3f99ed;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    padding: 8px 13px;
+    margin-top: 15px;
+  }
+
+  .abt-btn:hover {
+    background-color:#0078E8;
+    color: white;
+    border: 1px solid #0078E8;
+  }
