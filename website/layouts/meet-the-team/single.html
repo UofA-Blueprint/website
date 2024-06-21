@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>{{- partial "head.html" . -}} <link rel="stylesheet" href="{{
     "/meet-the-team.css" | absURL }}">
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
     </style>
+    <title>Meet the Team</title>
   </head>
-  <body style="margin: 0px">
+  <body>
     <header>{{- partial "header.html" . -}}</header>
-    <main style="background-color: #0078e8">
-      <div class="team-hero">
-        <div class="left">
-          <h1 class="headerTxt">{{.Title}}</h1>
-          <h3 class="txt">{{.Content}}</h3>
-          <div class="btns">
-            <button class="work">{{.Params.work_button_text}}</button>
-          </div>
-        </div>
-        <div class="right">
-          <img style="width: 560px; height: 330px;"
-          src={{"images/about-us-discussion-website.svg" | absURL }} alt="meet
-          the team hero img">
-        </div>
-      </div>
+    <main>
+      {{- partial "meet-the-team/hero.html" . -}}
     </main>
+      {{- partial "meet-the-team/teams.html" . -}}
     <footer>{{- partial "footer.html" . -}}</footer>
   </body>
 </html>

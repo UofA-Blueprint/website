@@ -31,6 +31,11 @@
   font-size: 42px;
 }
 
+.discussionImg {
+  width: 560px;
+  height: 330px;
+}
+
 .txt {
   margin-bottom: 1%;
   font-family: Lato;
@@ -54,4 +59,89 @@
 
 .work:hover {
   background-color: #3f99ed;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color: #0078e8;
+}
+
+.teams {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.teamHeaderTxt {
+  color: #147be5;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 600;
+}
+.team-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-members-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member {
+  display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.profile {
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+  border: 5px #147be5 solid;
+}
+
+.member-name {
+  font-family: Lato;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+.member-position {
+  font-family: Lato;
+  font-size: 21px;
+  margin: 0;
+}
+
+.linkedInLogo {
+  height: 45%;
+  width: 45%;
+  margin: 0;
 }
