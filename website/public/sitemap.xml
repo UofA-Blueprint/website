@@ -8,6 +8,8 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-01-20T21:28:18-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/forstudents/</loc>

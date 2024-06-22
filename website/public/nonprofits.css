@@ -189,4 +189,62 @@ p {
   color: var(--Dark-Blue, #0B2538);
 }
 
+#faq-sec {
+  background-color: white;
+  padding: 50px 0;
+}
 
+#faq-sec .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#faq-sec h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  color: var(--Dark-Blue, #0B2538);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  color: var(--Dark-Blue, #0B2538);
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.faq-item p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+  color: #AFAFAF;
+
+}
+
+@media (max-width: 768px) {
+  #faq-sec h2 {
+    font-size: 2em;
+  }
+
+  .faq-item h3 {
+    font-size: 1.2em;
+  }
+
+  .faq-item p {
+    font-size: 0.9em;
+  }
+}
