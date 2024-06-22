@@ -248,3 +248,83 @@ p {
     font-size: 0.9em;
   }
 }
+
+#learn-more-section {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+#learn-more-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#learn-more-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #0B2538;
+  font-weight: 700;
+}
+
+#learn-more-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #333;
+  color: var(--Dark-Blue, #0B2538);
+  font-family: Lato;
+  font-size: 1.7em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#learn-more-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#learn-more-section input[type="email"] {
+  margin-top:45px;
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  max-width: 588px;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+
+  flex-shrink: 0;
+  color: var(--Gray, #AFAFAF);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+    
+}
+
+#learn-more-section button {
+  background-color: #0078e8;
+  color: #fff;
+  padding: 10px 170px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Lato;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom:65px;
+}
+
+#learn-more-section button:hover {
+  background-color: #005bb5;
+}
