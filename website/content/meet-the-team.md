@@ -10,37 +10,37 @@ image_alt = "meet the team hero img"
 name = "Executive Team"
 [[teams.members]]
 name = "Alice Johnson"
-image = "/images/alice.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/alice"
 
 [[teams.members]]
 name = "Bob Smith"
-image = "/images/bob.jpg"
+image = "images/profile.png"
 position = "Postion"
 linkedin = "https://linkedin.com/in/bob"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
@@ -48,37 +48,37 @@ linkedin = "https://linkedin.com/in/carol"
 name = "ISA Team"
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
@@ -86,37 +86,37 @@ linkedin = "https://linkedin.com/in/carol"
 name = "DishZero Team"
 [[teams.members]]
 name = "Alice Johnson"
-image = "/images/alice.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/alice"
 
 [[teams.members]]
 name = "Bob Smith"
-image = "/images/bob.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/bob"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
@@ -124,37 +124,37 @@ linkedin = "https://linkedin.com/in/carol"
 name = "Alzheimer's Calgary Team"
 [[teams.members]]
 name = "Alice Johnson"
-image = "/images/alice.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/alice"
 
 [[teams.members]]
 name = "Bob Smith"
-image = "/images/bob.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/bob"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
@@ -162,31 +162,31 @@ linkedin = "https://linkedin.com/in/carol"
 name = "Internal Tools Team"
 [[teams.members]]
 name = "Alice Johnson"
-image = "/images/alice.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/alice"
 
 [[teams.members]]
 name = "Bob Smith"
-image = "/images/bob.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/bob"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
 name = "Carol Lee"
-image = "/images/carol.jpg"
+image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 +++
