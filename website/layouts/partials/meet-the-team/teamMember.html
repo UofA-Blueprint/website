@@ -1,5 +1,7 @@
 <div class="team-member">
-  <img class="profile" src="{{ .image | absURL }}" alt="Team Member" />
+  <div class="img-container">
+    <img class="profile" src="{{ .image | absURL }}" alt="Team Member" />
+  </div>
   <div class="info-container">
     <div class="info">
       <p class="member-name">{{ .name }}</p>

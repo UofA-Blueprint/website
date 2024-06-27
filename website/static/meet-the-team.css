@@ -102,27 +102,35 @@ main {
   display: flex;
   flex: 0 0 25%;
   flex-direction: column;
+  margin-bottom: 5%;
+}
+.img-container {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  height: auto;
+  padding: 5%;
 }
 
 .info-container {
   display: flex;
   flex-direction: row;
-  justify-self: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  margin-top: 4%;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   align-items: start;
+  flex: 1;
+  margin-left: 10%;
 }
 
 .profile {
-  height: 90%;
-  width: 90%;
+  width: 84%; /* Adjust the percentage based on your design needs */
+  height: auto;
+  aspect-ratio: 1 / 1; /* Ensures the width and height are always equal */
   border-radius: 50%;
   border: 5px #147be5 solid;
 }
@@ -130,18 +138,21 @@ main {
 .member-name {
   font-family: Lato;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 21px;
   margin: 0;
 }
 
 .member-position {
   font-family: Lato;
   font-size: 21px;
+  font-weight: 400;
   margin: 0;
 }
 
 .linkedInLogo {
-  height: 45%;
-  width: 45%;
   margin: 0;
+  width: 45%; /* Adjust the percentage based on your design needs */
+  height: auto;
+  aspect-ratio: 1 / 1; /* Ensures the width and height are always equal */
+  margin-left: 20%;
 }
