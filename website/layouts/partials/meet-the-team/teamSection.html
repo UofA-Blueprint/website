@@ -1,0 +1,7 @@
+<div class="team-section">
+  <h2 class="teamHeaderTxt">{{.name}}</h2>
+  <div class="team-members-container">
+    {{ range .members }} {{- partial "meet-the-team/teamMember.html" . -}} {{
+    end }}
+  </div>
+</div>
