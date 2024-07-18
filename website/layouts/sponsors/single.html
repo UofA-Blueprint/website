@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
-    "/sponsors.css" | absURL }}">
+    "/sponsors.css?version=51" | absURL }}">
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
     </style>
@@ -10,12 +10,13 @@
   <body style="margin: 0px">
     <header>{{- partial "header.html" . -}}</header>
     <main style="background-color: #0078e8">
+
       <div class="forSponsorsHero">
         <div class="left">
           <h1 class="headerTxt">{{.Title}}</h1>
           <h3 class="txt">{{.Content}}</h3>
           <div class="btns">
-            <button class="join">{{.Params.join_button_text}}</button>
+            <button class="join">{{.Params.join_button_text}}</button> 
           </div>
         </div>
         <div class="right">
@@ -24,6 +25,31 @@
           img">
         </div>
       </div>
+
+      <div class="sponsors-section">
+        <h2>Our Sponsors</h2>
+        <p>A huge thank you to our partners and sponsors for supporting our team and mission.</p>
+        <div class="sponsors-logos">
+          <div class="sponsor">
+            <img src={{"images/image-2.png" | absURL }} alt="Gmail">
+            <p>Gmail</p>
+          </div>
+          <div class="sponsor">
+            <img src={{"images/image-3.png" | absURL }} alt="University of Alberta">
+            <p>University of Alberta</p>
+          </div>
+          <div class="sponsor">
+            <img src={{"images/image-4.png" | absURL }} alt="Technology Alberta">
+            <p>Technology Alberta</p>
+          </div>
+          <div class="sponsor">
+            <img src={{"images/image-5.png" | absURL }} alt="Notion">
+            <p>Notion</p>
+          </div>
+        </div>
+      </div>
+      
+
     </main>
     <footer>{{- partial "footer.html" . -}}</footer>
   </body>
