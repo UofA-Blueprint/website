@@ -139,6 +139,13 @@
   font-weight: 400;
 }
 
+.criteria img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1em;
+  margin-left:140px;
+}
+
 .faq {
   background-color: #ffffff;
   display: flex;
