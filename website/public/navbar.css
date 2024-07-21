@@ -5,7 +5,6 @@
 .navBarContainer {
   display: flex;
   justify-content: space-between;
-
   padding-left: 67px;
   padding-right: 68px;
 }
@@ -21,16 +20,6 @@
   width: 225px;
   height: auto;
 }
-
-/* .navLogoText {
-  text-decoration: none;
-  margin-left: 10px;
-  font-size: 34px;
-  font-family: "Arimo", "sans-serif";
-  letter-spacing: 0.02em;
-  color: white;
-  margin-bottom: 4px;
-} */
 
 .navListContainer {
   display: flex;
@@ -54,4 +43,5 @@
   font-weight: 700;
   font-family: "Lato", sans-serif;
   color: white;
+  white-space: nowrap;
 }
