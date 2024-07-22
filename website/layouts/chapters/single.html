@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
-    "/projects.css" | absURL }}">
+    "/chapters.css" | absURL }}">
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
     </style>
@@ -10,20 +10,18 @@
   <body style="margin: 0px">
     <header>{{- partial "header.html" . -}}</header>
     <main style="background-color: #0078e8">
-        <!-- <div class="nonprofits-hero">
+        <div class="chapter-div">
             <div class="left">
               <h1 class="headerTxt">{{.Title}}</h1>
-              <h3 class="txt">{{.Params.hero_content}}</h3>
+              <h3 class="txt">{{.Params.header_text}}</h3>
               <div class="btns">
-                <button class="work">{{.Params.work_button_text}}</button>
+                <button class="work">JOIN US</button>
               </div>
             </div>
             <div class="right">
-              <img style="width: 560px; height: auto;"
-              src={{"images/for-nonprofits-puzzle.svg" | absURL }} alt="nonprofits
-              hero img">
             </div>
-          </div> -->
+          </div>
+    
     </main>
     <footer>{{- partial "footer.html" . -}}</footer>
   </body>
