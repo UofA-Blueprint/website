@@ -180,3 +180,193 @@
   color: #AFAFAF;
   font-weight: 400;
 }
+
+/* Resetting margins and padding, hiding horizontal overflow */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header styling */
+.header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Container styling */
+.container {
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Section styling */
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.section p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Step and criteria styling */
+.step, .criteria {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.step .number, .criteria .icon {
+  font-size: 2em;
+  margin-right: 15px;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .header {
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 1.2em;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .section h2 {
+    font-size: 1.2em;
+  }
+
+  .step .number, .criteria .icon {
+    font-size: 1.5em;
+  }
+}
+
+
+/* Media Queries for Responsive Design */
+
+/* For tablets and smaller screens (768px and below) */
+@media (max-width: 768px) {
+  .forStudentsHero {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .left, .right {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .headerTxt {
+    font-size: 36px;
+  }
+
+  .txt {
+    font-size: 24px;
+  }
+
+  .btns {
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  .right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .application-content, .decision-criteria-content, .faq {
+    margin: 0 5%;
+  }
+
+  .criteria, .faq-individual {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* For mobile phones (480px and below) */
+@media (max-width: 480px) {
+  .headerTxt {
+    font-size: 28px;
+  }
+
+  .txt {
+    font-size: 20px;
+  }
+
+  .application-header, .decision-criteria-header, .faq-header {
+    color: var(--Dark-Blue, #0B2538);
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .process-header, .criteria-header, .question {
+    color: var(--Dark-Blue, #0B2538);
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .process-content, .criteria-content, .answer {
+    color: var(--Blueprint-Dark_grey, #333);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .join {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  .right img {
+    width: 90%;
+  }
+
+  .number-section {
+    color: var(--Primary, #0078E8);
+    text-align: center;
+    font-family: Lato;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .process-section {
+    margin-left:30px;
+
+  }
+}
