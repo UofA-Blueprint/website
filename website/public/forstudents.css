@@ -328,7 +328,7 @@ body {
     line-height: normal;
   }
 
-  .process-header, .criteria-header, .question {
+  .process-header, .question {
     color: var(--Dark-Blue, #0B2538);
     font-family: Lato;
     font-size: 32px;
@@ -369,4 +369,39 @@ body {
     margin-left:30px;
 
   }
+
+  .criteria {
+    
+    display:flex;
+    flex-direction: column;
+
+  }
+
+  .criteria img {
+    margin-left:80px;
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+  }
+
+  .criteria-header {
+    color: var(--Dark-Blue, #0B2538);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin:-5px;
+  }
+
+  .criteria-content {
+    margin-top: 10px;
+    color: var(--Dark-Blue, #0B2538);
+    font-size:22px;
+
+    
+  }
+  
+  
 }
