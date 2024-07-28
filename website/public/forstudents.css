@@ -468,5 +468,37 @@ body {
     background: var(--Dark-Blue, #0B2538);
   }
 
+  .faq {
+    background: var(--Dark-Blue, #0B2538);
+    margin:0px;
+  }
+  .faq-header {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .question {
+    color: var(--White, #FFF);
+font-family: Lato;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .answer {
+    color: var(--White, #FFF);
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
   
 }
