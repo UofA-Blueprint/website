@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Nonprofits</title>
+    </head>{{- partial "head.html" . -}} <link rel="stylesheet" href="{{
     "/nonprofits.css" | absURL }}">
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
     </style>
   </head>
-  <body style="margin: 0px">
+  <body>
     <header>{{- partial "header.html" . -}}</header>
-    <main style="background-color: #0078e8">
+    <main class="main">
       <div class="nonprofits-hero">
         <div class="left">
           <h1 class="headerTxt">{{.Title}}</h1>
           <h3 class="txt">{{.Params.hero_content}}</h3>
           <div class="btns">
-            <button class="work">{{.Params.work_button_text}}</button>
+            <button type="button" class="work">{{.Params.work_button_text}}</button>
           </div>
         </div>
         <div class="right">
-          <img style="width: 560px; height: auto;"
+          <img class="heroImage"
           src={{"images/for-nonprofits-puzzle.svg" | absURL }} alt="nonprofits
           hero img">
         </div>
-      </div>
+      </div> 
 
       <div class="our-services">
         <h1 class="services-header">Our Services</h1>
@@ -119,7 +122,7 @@
       </div>
 
       <section id="decision-criteria-sec">
-        <div class="container">
+        <div class="decision-criteria-container">
             <div class="decision-criteria">
                 <h3>Decision Criteria</h3>
                 <div class="criteria-items">

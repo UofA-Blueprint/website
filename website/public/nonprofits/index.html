@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Nonprofits</title>
+    </head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>UofA BluePrint</title>
 <link rel="icon" href="http://localhost:1313/images/logo.png" type="image/x-icon"/>
@@ -19,7 +23,7 @@
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
     </style>
   </head>
-  <body style="margin: 0px">
+  <body>
     <header><nav class="nav">
   <div class="navBarContainer">
     <div class="navLogoContainer">
@@ -36,26 +40,27 @@
         <li><a class="navListItem" href=/forstudents>For Students</a></li>
         <li><a  class="navListItem" href=/nonprofits>For Nonprofits</a></li>
         <li><a class="navListItem" href=/meet-the-team>The Team</a></li>
+        <li><a class="navListItem" href=/sponsors>Partners</a></li>
       </ul>
     </div>
   </div>
 </nav>
 </header>
-    <main style="background-color: #0078e8">
+    <main class="main">
       <div class="nonprofits-hero">
         <div class="left">
           <h1 class="headerTxt">Nonprofits</h1>
           <h3 class="txt">As a partner, Blueprint will work with you to develop technology that turns your vision into a reality, completely free of charge.</h3>
           <div class="btns">
-            <button class="work">WORK WITH US</button>
+            <button type="button" class="work">WORK WITH US</button>
           </div>
         </div>
         <div class="right">
-          <img style="width: 560px; height: auto;"
+          <img class="heroImage"
           src=http://localhost:1313/images/for-nonprofits-puzzle.svg alt="nonprofits
           hero img">
         </div>
-      </div>
+      </div> 
 
       <div class="our-services">
         <h1 class="services-header">Our Services</h1>
@@ -151,7 +156,7 @@
       </div>
 
       <section id="decision-criteria-sec">
-        <div class="container">
+        <div class="decision-criteria-container">
             <div class="decision-criteria">
                 <h3>Decision Criteria</h3>
                 <div class="criteria-items">
@@ -217,69 +222,104 @@
 
     </main>
     <footer><div id="footer-div">
-    <div>
-        <p style="color: white; font-size: 40px; font-weight: bold;">
-            <img src="../images/logo.png" alt=""width="30">
-            blueprint
-        </p>
-        
-        <p style="font-size: 16px; color: grey;">© Blueprint 2022</p>
-    </div>
+  <div>
+    <p style="color: white; font-size: 40px; font-weight: bold">
+      <img src="../images/logo.png" alt="" width="30" />
+      blueprint
+    </p>
 
-    <div>
-        <h3 class="h-top">General</h3>
-        <div class="content-links">
-            <p>Home</p>
-            <p>Teams</p>
-            <p>Projects</p>
-        </div>
-    </div>
+    <p style="font-size: 16px; color: grey">© Blueprint 2022</p>
+  </div>
 
-    <div>
-        <h3 class="h-top">For Students</h3>
-        <div class="content-links">
-            <p>Apply</p>
-            <p>Process</p>
-            <p>FAQs</p>
-        </div>
+  <div>
+    <h3 class="h-top">General</h3>
+    <div class="content-links">
+      <p>Home</p>
+      <p>Teams</p>
+      <p>Projects</p>
     </div>
+  </div>
 
-    <div>
-        <h3 class="h-top">For Nonprofits</h3>
-        <div class="content-links">
-            <p>Apply</p>
-            <p>Process</p>
-            <p>FAQs</p>
-        </div>
+  <div>
+    <h3 class="h-top">For Students</h3>
+    <div class="content-links">
+      <p>Apply</p>
+      <p>Process</p>
+      <p>FAQs</p>
     </div>
+  </div>
 
-    <div>
-        <h3 class="h-top">Contact Us</h3>
-        <div class="content-links">
-            <p>
-                <img src="../images/footer-social-icons/Mail.png" alt="" width="15" color="white">
-                <a class="footer-link" href="mailto:bluep@ualberta.ca">Mail</a>
-            </p>
-            <p>
-                <img src="../images/footer-social-icons/LinkedIn.png" alt="" width="15" color="white">
-                <a class="footer-link" href="https://www.linkedin.com/company/uofa-blueprint/">LinkedIn</a>
-            </p>
-            <p>
-                <img src="../images/footer-social-icons/Instagram.png" alt="" width="15" color="white">
-                <a class="footer-link" href="https://www.instagram.com/uofablueprint/">Instagram</a>
-            </p>
-            
-            <p>
-                <img src="../images/footer-social-icons/GitHub.png" alt="" width="15" color="white">
-                <a class="footer-link" href="https://github.com/UofA-Blueprint"> GitHub</a>
-            </p>
-            <p>
-                <img src="../images/footer-social-icons/Medium.png" alt="" width="15" color="white">
-                <a class="footer-link" href="https://medium.com/@uofablueprint">Medium</a>
-            </p>
-        </div>
+  <div>
+    <h3 class="h-top">For Nonprofits</h3>
+    <div class="content-links">
+      <p>Apply</p>
+      <p>Process</p>
+      <p>FAQs</p>
     </div>
-  
-</div></footer>
+  </div>
+
+  <div>
+    <h3 class="h-top">Contact Us</h3>
+    <div class="content-links">
+      <p>
+        <img
+          src="../images/footer-social-icons/Mail.png"
+          alt=""
+          width="15"
+          color="white"
+        />
+        <a class="footer-link" href="mailto:bluep@ualberta.ca">Mail</a>
+      </p>
+      <p>
+        <img
+          src="../images/footer-social-icons/LinkedIn.png"
+          alt=""
+          width="15"
+          color="white"
+        />
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/company/uofa-blueprint/"
+          >LinkedIn</a
+        >
+      </p>
+      <p class="insta">
+        <img
+          src="../images/footer-social-icons/Instagram.png"
+          alt=""
+          width="15"
+          color="white"
+        />
+        <a class="footer-link" href="https://www.instagram.com/uofablueprint/"
+          >Instagram</a
+        >
+      </p>
+
+      <p>
+        <img
+          src="../images/footer-social-icons/GitHub.png"
+          alt=""
+          width="15"
+          color="white"
+        />
+        <a class="footer-link" href="https://github.com/UofA-Blueprint">
+          GitHub</a
+        >
+      </p>
+      <p>
+        <img
+          src="../images/footer-social-icons/Medium.png"
+          alt=""
+          width="15"
+          color="white"
+        />
+        <a class="footer-link" href="https://medium.com/@uofablueprint"
+          >Medium</a
+        >
+      </p>
+    </div>
+  </div>
+</div>
+</footer>
   </body>
 </html>
