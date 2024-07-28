@@ -403,5 +403,70 @@ body {
     
   }
   
+  .right img {
+    display:none;
+  }
+  
+  .headerTxt {
+    color: var(--White, #FFF);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .left p{
+
+    color: var(--White, #FFF);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:0px;
+  }
+
+  .btns {
+    display: flex;
+    width: 159px;
+    height: 36px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin:18px 0;
+    
+  }
+
+  .right {
+    padding:0px;
+  }
+
+  .join {
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13.881px; /* 77.117% */
+    letter-spacing: 0.231px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+
+  .headerTxt {
+    margin:0px;
+  }
+
+  .forStudentsHero {
+    padding-bottom:0px;
+    background: var(--Dark-Blue, #0B2538);
+  }
+
   
 }
