@@ -52,9 +52,9 @@
     </item>
     <item>
       <title>Tech For Social Good</title>
-      <link>http://localhost:1313/homepage/</link>
+      <link>http://localhost:1313/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/homepage/</guid>
+      <guid>http://localhost:1313/</guid>
       <description>We are a student group at the University of Alberta building web apps for nonprofits pro bono.</description>
     </item>
   </channel>
