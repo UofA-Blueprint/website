@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=52891&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>UofA BluePrint</title>
-<link rel="icon" href="http://localhost:1313/images/logo.png" type="image/x-icon"/>
-<link rel="stylesheet" href="http://localhost:1313/navbar.css">
-<link rel="stylesheet" href="http://localhost:1313/footer-style.css">
+<link rel="icon" href="http://localhost:52891/images/logo.png" type="image/x-icon"/>
+<link rel="stylesheet" href="http://localhost:52891/navbar.css">
+<link rel="stylesheet" href="http://localhost:52891/footer-style.css">
 <link
   rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Lato&display=swap"
@@ -14,7 +14,7 @@
   rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Arimo:700&display=swap"
 />
-<link rel="stylesheet" href="http://localhost:1313/sponsors.css?version=51">
+<link rel="stylesheet" href="http://localhost:52891/sponsors.css?version=51">
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
     </style>
@@ -24,10 +24,9 @@
   <div class="navBarContainer">
     <div class="navLogoContainer">
       <a href=/homepage/>
-        
-        <img class="navLogo Logo" src="http://localhost:1313/images/bp-logo.png"
+        <img class="navLogo Logo" src="http://localhost:52891/images/bp-logo.png"
         alt="Profile Pic"/>
-        <img class="navLogo mobileLogo" src="http://localhost:1313/images/logo.png"
+        <img class="navLogo mobileLogo" src="http://localhost:52891/images/logo.png"
         alt="Profile Pic"/>
       
       </a>
@@ -35,17 +34,27 @@
     </div>
 
     <div class="navListContainer">
+      <div class="burgerMenu" id="burgerMenu">
+        <img class="burgerImg" src="http://localhost:52891/images/menu.png" alt="burger"/>
+      </div>
       <ul class="navList">
         <li><a class="navListItem" href=/about>About Us</a></li>
         <li><a class="navListItem" href=/projects>Projects</a></li>
         <li><a class="navListItem" href=/forstudents>For Students</a></li>
         <li><a  class="navListItem" href=/nonprofits>For Nonprofits</a></li>
         <li><a class="navListItem" href=/meet-the-team>The Team</a></li>
+        <li><a class="navListItem" href=/chapters>Chapters</a></li>
         <li><a class="navListItem" href=/sponsors>Partners</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<script>
+  document.getElementById('burgerMenu').addEventListener('click', function() {
+    var navList = document.querySelector('.navList');
+    navList.classList.toggle('show');
+  });
+</script>
 </header>
     <main style="background-color: #0078e8">
 
@@ -55,11 +64,11 @@
           <h3 class="txt"><p>Our sponsors help what we do here at Blueprint a realty. Take a moment and learn about them, you can also be part of the good work Blueprint does.</p>
 </h3>
           <div class="btns">
-            <button class="join">BECOME A SPONSOR</button> 
+            <button class="join" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdNz37Y-dMaUKFPGssAsmgYgujbmsUTojaigaNujGucRMjgFQ/viewform?usp=sf_link'">BECOME A SPONSOR</button> 
           </div>
         </div>
         <div class="right">
-          <img style="width: 360px; height: auto;" src=http://localhost:1313/images/home-about-us-diagram.svg alt="sponsors hero
+          <img style="width: 360px; height: auto;" src=http://localhost:52891/images/home-about-us-diagram.svg alt="sponsors hero
           img">
         </div>
       </div>
@@ -69,19 +78,19 @@
         <p>A huge thank you to our partners and sponsors for supporting our team and mission.</p>
         <div class="sponsors-logos">
           <div class="sponsor">
-            <img src=http://localhost:1313/images/image-2.png alt="Gmail">
+            <img src=http://localhost:52891/images/image-2.png alt="Gmail">
             <p>Gmail</p>
           </div>
           <div class="sponsor">
-            <img src=http://localhost:1313/images/image-3.png alt="University of Alberta">
+            <img src=http://localhost:52891/images/image-3.png alt="University of Alberta">
             <p>University of Alberta</p>
           </div>
           <div class="sponsor">
-            <img src=http://localhost:1313/images/image-4.png alt="Technology Alberta">
+            <img src=http://localhost:52891/images/image-4.png alt="Technology Alberta">
             <p>Technology Alberta</p>
           </div>
           <div class="sponsor">
-            <img src=http://localhost:1313/images/image-5.png alt="Notion">
+            <img src=http://localhost:52891/images/image-5.png alt="Notion">
             <p>Notion</p>
           </div>
         </div>
@@ -102,27 +111,27 @@
   <div>
     <h3 class="h-top">General</h3>
     <div class="content-links">
-      <p>Home</p>
-      <p>Teams</p>
-      <p>Projects</p>
+      <p><a href=/about>Home</a></p>
+      <p><a href=/meet-the-team>Teams</a></p>
+      <p><a href=/projects>Projects</a></p>
     </div>
   </div>
 
   <div>
     <h3 class="h-top">For Students</h3>
     <div class="content-links">
-      <p>Apply</p>
-      <p>Process</p>
-      <p>FAQs</p>
+      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj6pIXtvptM6WJORuUAg1blJhqR-L5ZssCpkTlsqleJRJcag/viewform?usp=sf_link">Apply</a></p>
+      <p><a  href="/forstudents">Process</a></p>
+      <p><a href="/forstudents#faq-sec">FAQs</a></p>
     </div>
   </div>
 
   <div>
     <h3 class="h-top">For Nonprofits</h3>
     <div class="content-links">
-      <p>Apply</p>
-      <p>Process</p>
-      <p>FAQs</p>
+      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfdpmq1FsUPIp1mRlJgmdbcJENuEg0IU3nB5KiIttYay-ebzA/viewform?usp=sf_link">Apply</a></p>
+      <p><a  href="/nonprofits">Process</a></p>
+      <p><a href="/nonprofits/#faq-sec">FAQs</a></p>
     </div>
   </div>
 

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=52891&amp;path=livereload" data-no-instant defer></script>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Nonprofits</title>
     </head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>UofA BluePrint</title>
-<link rel="icon" href="http://localhost:1313/images/logo.png" type="image/x-icon"/>
-<link rel="stylesheet" href="http://localhost:1313/navbar.css">
-<link rel="stylesheet" href="http://localhost:1313/footer-style.css">
+<link rel="icon" href="http://localhost:52891/images/logo.png" type="image/x-icon"/>
+<link rel="stylesheet" href="http://localhost:52891/navbar.css">
+<link rel="stylesheet" href="http://localhost:52891/footer-style.css">
 <link
   rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Lato&display=swap"
@@ -18,7 +18,7 @@
   rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Arimo:700&display=swap"
 />
-<link rel="stylesheet" href="http://localhost:1313/nonprofits.css">
+<link rel="stylesheet" href="http://localhost:52891/nonprofits.css">
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
     </style>
@@ -28,10 +28,9 @@
   <div class="navBarContainer">
     <div class="navLogoContainer">
       <a href=/homepage/>
-        
-        <img class="navLogo Logo" src="http://localhost:1313/images/bp-logo.png"
+        <img class="navLogo Logo" src="http://localhost:52891/images/bp-logo.png"
         alt="Profile Pic"/>
-        <img class="navLogo mobileLogo" src="http://localhost:1313/images/logo.png"
+        <img class="navLogo mobileLogo" src="http://localhost:52891/images/logo.png"
         alt="Profile Pic"/>
       
       </a>
@@ -39,17 +38,27 @@
     </div>
 
     <div class="navListContainer">
+      <div class="burgerMenu" id="burgerMenu">
+        <img class="burgerImg" src="http://localhost:52891/images/menu.png" alt="burger"/>
+      </div>
       <ul class="navList">
         <li><a class="navListItem" href=/about>About Us</a></li>
         <li><a class="navListItem" href=/projects>Projects</a></li>
         <li><a class="navListItem" href=/forstudents>For Students</a></li>
         <li><a  class="navListItem" href=/nonprofits>For Nonprofits</a></li>
         <li><a class="navListItem" href=/meet-the-team>The Team</a></li>
+        <li><a class="navListItem" href=/chapters>Chapters</a></li>
         <li><a class="navListItem" href=/sponsors>Partners</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<script>
+  document.getElementById('burgerMenu').addEventListener('click', function() {
+    var navList = document.querySelector('.navList');
+    navList.classList.toggle('show');
+  });
+</script>
 </header>
     <main class="main">
       <div class="nonprofits-hero">
@@ -57,12 +66,12 @@
           <h1 class="headerTxt">Nonprofits</h1>
           <h3 class="txt">As a partner, Blueprint will work with you to develop technology that turns your vision into a reality, completely free of charge.</h3>
           <div class="btns">
-            <button type="button" class="work">WORK WITH US</button>
+            <button type="button" class="work" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfdpmq1FsUPIp1mRlJgmdbcJENuEg0IU3nB5KiIttYay-ebzA/viewform?usp=sf_linkk'">WORK WITH US</button>
           </div>
         </div>
         <div class="right">
           <img class="heroImage"
-          src=http://localhost:1313/images/for-nonprofits-puzzle.svg alt="nonprofits
+          src=http://localhost:52891/images/for-nonprofits-puzzle.svg alt="nonprofits
           hero img">
         </div>
       </div> 
@@ -72,7 +81,7 @@
         <div class="services-container">
           <div class="service-row">
             <div class="service-image">
-              <img src=http://localhost:1313/images/monitor.svg alt="Service 1">
+              <img src=http://localhost:52891/images/monitor.svg alt="Service 1">
             </div>
             <div class="service-content">
               <h2 class="text-header">Web Development</h2>
@@ -86,7 +95,7 @@
               <p>Mobile applications let your users download an app and access it on their phone. This might be better for applications that need to be portable or accessed with no internet connection.</p>
             </div>
             <div class="service-image">
-              <img src=http://localhost:1313/images/phone.svg alt="Service 2">
+              <img src=http://localhost:52891/images/phone.svg alt="Service 2">
             </div>
           </div>
         </div>
@@ -166,27 +175,27 @@
                 <h3>Decision Criteria</h3>
                 <div class="criteria-items">
                     <div class="criteria-item">
-                        <img src=http://localhost:1313/images/momentum-copy.png alt="Impact Icon">
+                        <img src=http://localhost:52891/images/momentum-copy.png alt="Impact Icon">
                         <h4>Impact</h4>
                         <p>How much will your project impact the community?</p>
                     </div>
                     <div class="criteria-item">
-                        <img src=http://localhost:1313/images/warning-copy.png alt="Necessity Icon">
+                        <img src=http://localhost:52891/images/warning-copy.png alt="Necessity Icon">
                         <h4>Necessity</h4>
                         <p>How vital is your project to your non-profit organization?</p>
                     </div>
                     <div class="criteria-item">
-                        <img src=http://localhost:1313/images/fence-copy.png alt="Scope Icon">
+                        <img src=http://localhost:52891/images/fence-copy.png alt="Scope Icon">
                         <h4>Scope</h4>
                         <p>Is your project achievable within the allotted timeline?</p>
                     </div>
                     <div class="criteria-item">
-                        <img src=http://localhost:1313/images/puzzle-piece-copy.png alt="Technical Fit Icon">
+                        <img src=http://localhost:52891/images/puzzle-piece-copy.png alt="Technical Fit Icon">
                         <h4>Technical Fit</h4>
                         <p>Does your project use the capabilities of technology?</p>
                     </div>
                     <div class="criteria-item">
-                        <img src=http://localhost:1313/images/guarantee-copy.png alt="Credibility Icon">
+                        <img src=http://localhost:52891/images/guarantee-copy.png alt="Credibility Icon">
                         <h4>Credibility</h4>
                         <p>Is there evidence that your project will have an impact?</p>
                     </div>
@@ -239,27 +248,27 @@
   <div>
     <h3 class="h-top">General</h3>
     <div class="content-links">
-      <p>Home</p>
-      <p>Teams</p>
-      <p>Projects</p>
+      <p><a href=/about>Home</a></p>
+      <p><a href=/meet-the-team>Teams</a></p>
+      <p><a href=/projects>Projects</a></p>
     </div>
   </div>
 
   <div>
     <h3 class="h-top">For Students</h3>
     <div class="content-links">
-      <p>Apply</p>
-      <p>Process</p>
-      <p>FAQs</p>
+      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj6pIXtvptM6WJORuUAg1blJhqR-L5ZssCpkTlsqleJRJcag/viewform?usp=sf_link">Apply</a></p>
+      <p><a  href="/forstudents">Process</a></p>
+      <p><a href="/forstudents#faq-sec">FAQs</a></p>
     </div>
   </div>
 
   <div>
     <h3 class="h-top">For Nonprofits</h3>
     <div class="content-links">
-      <p>Apply</p>
-      <p>Process</p>
-      <p>FAQs</p>
+      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfdpmq1FsUPIp1mRlJgmdbcJENuEg0IU3nB5KiIttYay-ebzA/viewform?usp=sf_link">Apply</a></p>
+      <p><a  href="/nonprofits">Process</a></p>
+      <p><a href="/nonprofits/#faq-sec">FAQs</a></p>
     </div>
   </div>
 

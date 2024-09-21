@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UofA BluePrint</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/homepage/</link>
     <description>Recent content on UofA BluePrint</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Jan 2024 21:28:18 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -35,6 +35,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/meet-the-team/</guid>
       <description>This team is a group of dedicated students looking to give back to their community, while working through school at the University of Alberta.</description>
+    </item>
+    <item>
+      <title>Our Chapters</title>
+      <link>http://localhost:1313/chapters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/chapters/</guid>
+      <description></description>
     </item>
     <item>
       <title>Our Projects</title>
