@@ -30,14 +30,6 @@
   align-items: center;
 }
 
-a:link {
-  font-size: 18px;
-  color: white;
-  text-decoration: none;
-}
-
-a:visited {
-  font-size: 18px;
-  color: white;
-  text-decoration: none;
+a {
+  font-size: 15;
 }
