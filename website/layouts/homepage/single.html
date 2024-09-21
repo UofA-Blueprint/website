@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
+    "/homepage.css" | absURL }}">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
+    </style>
+  </head>
+  <body style="margin: 0px">
+    <header>{{- partial "header.html" . -}}</header>
+    <main style="background-color: #0078e8">
+      <div class="hp-block">
+        <div class="left">
+          <h1 class="hp-title">{{.Title}}</h1>
+          <h3 class="hp-txt" style="width: 550px;">{{.Content}}</h3>
+        </div>
+        <div class="right">
+          <img  src={{"images/home-collaboration.svg" | absURL }} alt="home collaboration image">
+        </div>
+      </div>
+      
+      <div class="hp-abt-block">
+        <div class="left">
+          <h1 class="hp-abt-title">{{.Params.about_us_title}}</h1>
+          <h3 class="hp-abt-txt" style="width: 550px;">{{.Params.about_us1}}</h3>
+          <h3 class="hp-abt-txt" style="width: 550px;">{{.Params.about_us2}}</h3>
+          <button class="abt-btn">{{.Params.about_us_btn}}</button>
+        </div>
+        <div class="right">
+          <img  src={{"images/home-about-us-diagram.svg" | absURL }} alt="home about us image">
+        </div>
+      </div>
+      <div class="hp-project-block">
+        <div style="padding-left: 66px;">
+          <h1 class="hp-abt-title">{{.Params.project_title}}</h1>
+          <h3 class="hp-abt-txt">{{.Params.project_info}}</h3>
+          <button class="abt-btn">{{.Params.projects_btn}}</button>
+        </div>
+        <div class="hp-projects">
+          <div class="project_div">
+            <img  src={{"images/default-project.png" | absURL }} alt="default-project" class="project-img">
+            <h3 class="hp-project-title">Alzheimer Calgary (ASC)</h3>
+          </div>
+          <div class="project_div">
+            <img  src={{"images/default-project.png" | absURL }} alt="default-project" class="project-img">
+            <h3 class="hp-project-title">DishZero</h3>
+          </div>
+          <div class="project_div">
+            <img  src={{"images/default-project.png" | absURL }} alt="default-project" class="project-img">
+            <h3 class="hp-project-title">ISA</h3>
+          </div>
+        </div>
+      </div>
+      <div class="hp-involved-cont" style="padding-top: 70px;">
+        <h1 class="hp-involved-title">{{.Params.involved_title}}</h1>
+      </div>
+      <div class="hp-involved-cont" style="padding-bottom: 70px;">
+        <div class="div_i">
+          <img  src={{"images/cap.png" | absURL }} alt="graduation cap" style="width:200px;">
+          <h1 class="hp-involved-sub-title">{{.Params.involved_s_title}}</h1>
+          <h3 class="hp-abt-txt" style="text-align: center;">{{.Params.involved1}}</h3>
+          <button class="abt-btn">{{.Params.involved_btn}}</button>
+        </div>
+        <div class="div_i">
+          <img  src={{"images/office-building.png" | absURL }} alt="office building image" style="width:200px;">
+          <h1 class="hp-involved-sub-title">{{.Params.involved_n_title}}</h1>
+          <h3 class="hp-abt-txt" style="text-align: center;">{{.Params.involved2}}</h3>
+          <button class="abt-btn">{{.Params.involved_btn}}</button>
+        </div>
+      </div>
+        <div class="hp-abt-block" style="background-color: #F8F8F8;">
+          <iframe width="320" height="530" style="padding: 20px 0px;" src="https://www.instagram.com/p/C4YQBilRd0F/embed/" frameborder="0"></iframe>
+
+          <iframe width="320" height="530" style="padding: 20px 0px;"src="https://www.instagram.com/p/C15Wnd1vWzb/embed/" frameborder="0"></iframe>
+
+          <iframe width="320" height="530" style="padding: 20px 0px;" src="https://www.instagram.com/p/C4q-z5Iv7gN/embed/" frameborder="0"></iframe>
+
+          <iframe width="320" height="530" style="padding: 20px 0px;"src="https://www.instagram.com/p/C36A783SRxZ/embed/" frameborder="0"></iframe>
+        </div>
+      </div>
+    </main>
+    <footer>{{- partial "footer.html" . -}}</footer>
+  </body>
+</html>

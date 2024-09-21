@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
+    "/projects.css" | absURL }}">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
+    </style>
+  </head>
+  <body style="margin: 0px">
+    <header>{{- partial "header.html" . -}}</header>
+    <main style="background-color: #0078e8">
+      <div class="projectsHero">
+        <div class="left">
+          <h1 class="headerTxt">{{.Title}}</h1>
+          <h3 class="txt">{{.Content}}</h3>
+          <div class="btns">
+            <button class="gitHub">
+              <img style="width: 19px; height: auto; padding-top: 2px" src="{{
+              "images/git.png" | absURL }}" alt="GitHub icon" onclick="window.location.href='https://github.com/UofA-Blueprint'">
+            </button>
+            <button class="work" onclick="window.location.href='{{ "/nonprofits/" | absURL }}'">{{.Params.work_button_text}}</button>
+          </div>
+        </div>
+        <div class="right">
+          <img style="width: 460px; height: auto;" src={{
+          "images/projects-discussion.svg" | absURL }} alt="for projects hero
+          img">
+        </div>
+      </div>
+      <div class="hp-project-block" style="background-color: white;">
+        <h1 class="hp-abt-title">Current Projects</h1>
+        <div class="hp-projects">
+          <div class="project_div">
+            <img  src={{"images/default-project.png" | absURL }} alt="default-project" class="project-img">
+            <h3 class="hp-project-title">Alzheimer Calgary (ASC)</h3>
+            <p class="hp-project-details">Temp Text, We're Working On It!</p>
+          </div>
+          <div class="project_div">
+            <img  src={{"images/default-project.png" | absURL }} alt="default-project" class="project-img">
+            <h3 class="hp-project-title">DishZero</h3>
+            <p class="hp-project-details">Temp Text, We're Working On It!</p>
+          </div>
+          <div class="project_div">
+            <img  src={{"images/default-project.png" | absURL }} alt="default-project" class="project-img">
+            <h3 class="hp-project-title">ISA</h3>
+            <p class="hp-project-details">Temp Text, We're Working On It!</p>
+          </div>
+        </div>
+      </div>
+      <div class="hp-project-block">
+          <h1 class="hp-abt-title">Past Projects</h1>
+        <div class="hp-projects">
+          <div class="project_div">
+            <img  src={{"images/default-project.png" | absURL }} alt="default-project" class="project-img">
+            <h3 class="hp-project-title">Alzheimer Calgary (ASC)</h3>
+            <p class="hp-project-details">Temp Text, We're Working On It!</p>
+          </div>
+          <div class="project_div">
+            <img  src={{"images/default-project.png" | absURL }} alt="default-project" class="project-img">
+            <h3 class="hp-project-title">DishZero</h3>
+            <p class="hp-project-details">Temp Text, We're Working On It!</p>
+          </div>
+          <div class="project_div">
+            <img  src={{"images/default-project.png" | absURL }} alt="default-project" class="project-img">
+            <h3 class="hp-project-title">ISA</h3>
+            <p class="hp-project-details">Temp Text, We're Working On It!</p>
+          </div>
+        </div>
+      </div>    </main>
+    <footer>{{- partial "footer.html" . -}}</footer>
+  </body>
+</html>

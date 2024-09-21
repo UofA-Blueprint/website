@@ -1,0 +1,35 @@
+<nav class="nav">
+  <div class="navBarContainer">
+    <div class="navLogoContainer">
+      <a href={{ "/"| relURL}}>
+        <img class="navLogo Logo" src="{{ "images/bp-logo.png" | absURL }}"
+        alt="Profile Pic"/>
+        <img class="navLogo mobileLogo" src="{{ "images/logo.png" | absURL }}"
+        alt="Profile Pic"/>
+      
+      </a>
+      <p class="bpHeader">blueprint</p>
+    </div>
+
+    <div class="navListContainer">
+      <div class="burgerMenu" id="burgerMenu">
+        <img class="burgerImg" src="{{ "images/menu.png" | absURL }}" alt="burger"/>
+      </div>
+      <ul class="navList">
+        <li><a class="navListItem" href={{ "/about" | relURL }}>About Us</a></li>
+        <li><a class="navListItem" href={{ "/projects" | relURL }}>Projects</a></li>
+        <li><a class="navListItem" href={{ "/forstudents" | relURL }}>For Students</a></li>
+        <li><a  class="navListItem" href={{ "/nonprofits" | relURL }}>For Nonprofits</a></li>
+        <li><a class="navListItem" href={{ "/meet-the-team" | relURL }}>The Team</a></li>
+        <li><a class="navListItem" href={{ "/chapters" | relURL }}>Chapters</a></li>
+        <li><a class="navListItem" href={{ "/sponsors" | relURL }}>Partners</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<script>
+  document.getElementById('burgerMenu').addEventListener('click', function() {
+    var navList = document.querySelector('.navList');
+    navList.classList.toggle('show');
+  });
+</script>

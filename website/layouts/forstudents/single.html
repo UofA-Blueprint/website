@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
+    "/forstudents.css?version=51" | absURL }}">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
+    </style>
+  </head>
+  <body style="margin: 0px">
+    <header>{{- partial "header.html" . -}}</header>
+    <main style="background-color: #0078e8">
+      <div class="forStudentsHero">
+        <div class="left">
+          <h1 class="headerTxt">{{.Title}}</h1>
+          <h3 class="txt">{{.Content}}</h3>
+          <div class="btns">
+            <button class="join" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdj6pIXtvptM6WJORuUAg1blJhqR-L5ZssCpkTlsqleJRJcag/viewform?usp=sf_link'">{{.Params.join_button_text}}</button>
+          </div>
+        </div>
+        <div class="right">
+          <img style="width: 360px; height: auto;" src={{
+          "images/home-about-us-diagram.svg" | absURL }} alt="forstudents hero
+          img">
+        </div>
+      </div>
+      <div class="application-process">
+        <h1 class="application-header">Student Application Process</h1>
+        <div class="application-content">
+          <div class="app-section">
+            <div class="number-section">01</div>
+            <div class="process-section" >
+              <h2 class="process-header">Applications Open</h2>
+              <p class="process-content">Before the start of Fall term (September), we will be opening our application to recruit members across different positions.</p>
+            </div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">|</div>
+            <div class="process-section"></div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">02</div>
+            <div class="process-section">
+              <h2 class="process-header">Infosessions</h2>
+              <p class="process-content">Learn more about our club and our projects during our infosessions! We will be talking about what you can expect when you join Blueprint and answer any questions you may have.</p>
+            </div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">|</div>
+            <div class="process-section"></div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">03</div>
+            <div class="process-section">
+              <h2 class="process-header">Applications Due</h2>
+              <p class="process-content">The application includes 2 short questions to help us understand your background and your motivations for joining Blueprint.</p>
+            </div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">|</div>
+            <div class="process-section"></div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">04</div>
+            <div class="process-section">
+              <h2 class="process-header">Interviews</h2>
+              <p class="process-content">An interview to learn more about your background and your experiences. This will be an opportunity to show your passion for social good and ability to problem solve. Invited candidates will be emailed to sign up for an interview slot.</p>
+            </div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">|</div>
+            <div class="process-section"></div>
+          </div>
+          <div class="app-section">
+            <div class="number-section">05</div>
+            <div class="process-section">
+              <h2 class="process-header">Meet the Club</h2>
+              <p class="process-content">Let’s chat! We will send out invites to schedule a time to talk. At Blueprint, we want to know what inspires you most, allow you to meet our team, and answer any questions you may have!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="decision-criteria">
+        <h1 class="decision-criteria-header">Decision Criteria</h1>
+        <div class="decision-criteria-content">
+          <div class="criteria">
+            <img src={{"images/fire1-copy.png" | absURL }} >
+            <div class="criteria-section">
+              <h2 class="criteria-header">Passion</h2>
+              <p class="criteria-content">Are you excited to dedicate time, energy, and compassion towards understanding and building with communities?</p>
+            </div>
+          </div>
+          <div class="criteria">
+            <img src={{"images/growth-copy.png" | absURL }} >
+            <div class="criteria-section">
+              <h2 class="criteria-header">Growth</h2>
+              <p class="criteria-content">Do you actively seek out ways to grow? Do you take action to work towards that growth?</p>
+            </div>
+          </div>
+          <div class="criteria">
+            <img src={{"images/steering-wheel-copy.png" | absURL }} >
+            <div class="criteria-section">
+              <h2 class="criteria-header">Resourcefulness</h2>
+              <p class="criteria-content">Are you self-motivated and driven? Do you adapt to new environments and challenges?</p>
+            </div>
+          </div>
+          <div class="criteria">
+            <img src={{"images/personality-copy.png" | absURL }} >
+            <div class="criteria-section">
+              <h2 class="criteria-header">Attitude</h2>
+              <p class="criteria-content">Do you approach problems and challenges with an open mind? Are you able to work through unfamiliar situations?</p>
+            </div>
+          </div>
+          <div class="criteria">
+            <img src={{"images/puzzle-piece-copy.png" | absURL }} >
+            <div class="criteria-section">
+              <h2 class="criteria-header">Teamwork</h2>
+              <p class="criteria-content">Do you enjoy collaborating and learning with others? Do you value others' perspectives and experiences?</p>
+            </div>
+          </div>
+          <div class="criteria">
+            <img src={{"images/support-copy.png" | absURL }} >
+            <div class="criteria-section">
+              <h2 class="criteria-header">Culture</h2>
+              <p class="criteria-content">Are you looking forward to developing meaningful relationships with our members and partners beyond the work environment?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faq" id="faq-sec">
+        <h1 class="faq-header">Frequently Asked Questions</h1>
+        <div class="faq-individual">
+          <h2 class="question">Do I need experience to apply?</h2>
+          <p class="answer">Technical experience is not a requirement! We look for passion and drive above all, as we will help support our members to grow and learn about our tools.</p>
+        </div>
+        <div class="faq-individual">
+          <h2 class="question">How much of a time commitment is Blueprint?</h2>
+          <p class="answer">We expect about 10-12 hours out of our members per week. This will be split between worksessions, team bonding, and individual time spent on a project.</p>
+        </div>
+        <div class="faq-individual">
+          <h2 class="question">How are the project teams structured?</h2>
+          <p class="answer">Project teams typically consist of 1 project lead, 4-6 developers, and 1-2 designers. Our projects are developed and designed over Fall - Spring every year.</p>
+        </div>
+        <div class="faq-individual">
+          <h2 class="question">Do I get to choose the team that I am on?</h2>
+          <p class="answer">When you join Blueprint, we will have a period for project leads to present their projects to the rest of Blueprint. You may then fill out an interest form and we will put people onto teams of their choice.</p>
+        </div>
+      </div>
+    </main>
+    <footer>{{- partial "footer.html" . -}}</footer>
+  </body>
+</html>

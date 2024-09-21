@@ -1,0 +1,160 @@
+.nav {
+  background-color: #0078e8;
+}
+
+.navBarContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 67px;
+  padding-right: 68px;
+}
+
+.navLogoContainer {
+  display: flex;
+  align-items: center;
+
+  margin-top: 10px;
+}
+
+.navLogo {
+  display: none; /* hiding all logos by default */
+}
+
+.Logo {
+  display:block;
+}
+
+.navLogo {
+  width: 225px;
+  height: auto;
+}
+
+.navListContainer {
+  display: flex;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+.navListItem {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 31px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: white;
+  white-space: nowrap;
+}
+
+.bpHeader {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 480px) {
+
+  .Logo {
+    display: none; 
+  }
+  .mobileLogo {
+    display: block; 
+    width: 42px;
+    flex-shrink: 42px;
+    margin-left:20px;
+  }
+  .navBarContainer {
+    padding: 0 0 0 0;
+  }
+
+  .nav {
+    background: var(--Dark-Blue, #0B2538);
+  }
+
+  .navListContainer {
+    display:none;
+  }
+
+  .bpHeader {
+    display: block;
+    color: var(--White, #FFF);
+    font-family: Arimo;
+    font-size: 23.135px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left:5.78px;
+  }
+
+  .menu {
+    width: 330px;
+    height: 330px;
+    flex-shrink: 0;
+  }   
+
+}
+
+.burgerMenu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.burgerImg {
+  width: 15%;
+  height: auto;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .navList {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #0078e8;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .navListContainer {
+    position: relative; /* added this to create a containing block for the absolute navList */
+  }
+  .navList li {
+    border-bottom: 1px solid #ccc; /* add border to each list item */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navList li:last-child {
+    border-bottom: none; /* remove border from last list item */
+  }
+  .burgerMenu {
+    display: flex;
+    flex: 20%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .burgerImg {
+    display: flex;
+    width: 15%;
+    height: auto;
+  }
+  .navList.show {
+    display: block;
+  }
+}
