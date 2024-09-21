@@ -15,7 +15,7 @@
           <h1 class="headerTxt">{{.Title}}</h1>
           <h3 class="txt">{{.Content}}</h3>
           <div class="btns">
-            <button class="join">{{.Params.join_button_text}}</button>
+            <button class="join" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdj6pIXtvptM6WJORuUAg1blJhqR-L5ZssCpkTlsqleJRJcag/viewform?usp=sf_link'">{{.Params.join_button_text}}</button>
           </div>
         </div>
         <div class="right">
@@ -128,7 +128,7 @@
           </div>
         </div>
       </div>
-      <div class="faq">
+      <div class="faq" id="faq-sec">
         <h1 class="faq-header">Frequently Asked Questions</h1>
         <div class="faq-individual">
           <h2 class="question">Do I need experience to apply?</h2>
