@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
-    "/chapters.css" | absURL }}">
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
-    </style>
-  </head>
-  <body style="margin: 0px">
-    <header>{{- partial "header.html" . -}}</header>
-    <main style="background-color: #0078e8">
-        <div class="chapter-div">
-            <div class="left">
-              <h1 class="headerTxt">{{.Title}}</h1>
-              <h3 class="txt">{{.Params.header_text}}</h3>
-              <div class="btns">
+    <head>
+        {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
+        "/chapters.css" | absURL }}">
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
+        </style>
+    </head>
+    <body style="margin: 0px">
+        <header>{{- partial "header.html" . -}}</header>
+        <main style="background-color: #0078e8">
+            <div class="chapter-div">
+                <div class="left">
+                    <h1 class="headerTxt">{{.Title}}</h1>
+                    <h3 class="txt">{{.Params.header_text}}</h3>
+                    <!-- <div class="btns">
                 <button class="work">JOIN US</button>
-              </div>
+              </div> -->
+                </div>
+                <div class="right"></div>
             </div>
-            <div class="right">
-            </div>
-          </div>
-    
-    </main>
-    <footer>{{- partial "footer.html" . -}}</footer>
-  </body>
+        </main>
+        <footer>{{- partial "footer.html" . -}}</footer>
+    </body>
 </html>
