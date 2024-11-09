@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>UofA BluePrint</title>
 <link rel="icon" href="http://localhost:1313/images/logo.png" type="image/x-icon"/>
@@ -15,16 +15,15 @@
   href="https://fonts.googleapis.com/css?family=Arimo:700&display=swap"
 />
 <link rel="stylesheet" href="http://localhost:1313/about.css">
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
-    </style>
-  </head>
-  <body style="margin: 0px">
-    <header><nav class="nav">
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
+        </style>
+    </head>
+    <body style="margin: 0px">
+        <header><nav class="nav">
   <div class="navBarContainer">
     <div class="navLogoContainer">
       <a href=/>
-        
         <img class="navLogo Logo" src="http://localhost:1313/images/bp-logo.png"
         alt="Profile Pic"/>
         <img class="navLogo mobileLogo" src="http://localhost:1313/images/logo.png"
@@ -35,94 +34,146 @@
     </div>
 
     <div class="navListContainer">
+      <div class="burgerMenu" id="burgerMenu">
+        <img class="burgerImg" src="http://localhost:1313/images/menu.png" alt="burger"/>
+      </div>
       <ul class="navList">
         <li><a class="navListItem" href=/about>About Us</a></li>
         <li><a class="navListItem" href=/projects>Projects</a></li>
         <li><a class="navListItem" href=/forstudents>For Students</a></li>
         <li><a  class="navListItem" href=/nonprofits>For Nonprofits</a></li>
         <li><a class="navListItem" href=/meet-the-team>The Team</a></li>
+        <li><a class="navListItem" href=/chapters>Chapters</a></li>
         <li><a class="navListItem" href=/sponsors>Partners</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<script>
+  document.getElementById('burgerMenu').addEventListener('click', function() {
+    var navList = document.querySelector('.navList');
+    navList.classList.toggle('show');
+  });
+</script>
 </header>
-    <main style="font-family: Lato;" >
-    <div class="hero">
-        <div class="hero-img">
-            <div class="text-header">About Us</div>
-            <div class="text-content">Making technology accessible and useful for
-                <br> those who create communities.</div>
-        </div>
-
-    </div>
-    <div style="background-color: #0078E8;">
-        <div class="section-header">
-            <p>MISSION</p>
-            <p>VALUES</p>
-            <p>BLOG</p>
-        </div>
-    </div>
-    <div class="mission">
-        <div class="mission-header"> Our Mission Statement</div>
-        <p class="mission-text">To make beautiful engineering accessible and useful for those who create communities and promote public welfare.</p>
-        <button class="more-button">READ MORE</button>
-    </div>
-    <div class="our-values">
-        <h1 class="values-header">Our Values</h1>
-        <div class="values-container">
-            <div class="values-row">
-                <div class="values-image">
-                    <img src=http://localhost:1313/images/mountain.svg alt="value 1">
-                </div>
-                <div class="values-content">
-                    <h2 class="values-text-header">1. Mission First</h2>
-                    <p class="values-text">We as Blueprint members ultimately unify under one goal - achieving our mission. We place the interests of the people and partners we serve above our own. Our primary measure of success is the amount of positive impact we create through our work.</p>
-                </div>
-            </div>
-        
-          <div class="values-row">
-            <div class="values-content">
-              <h2 class="values-text-header right-justified">2. Perpetual Growth</h2>
-              <p class="values-text">We as Blueprint members value the academic, social, and personal growth of our peers. We constantly seek to perpetuate the cycle of learning and teaching, for our benefit and for others. We strive to offer a helping hand in times of need and push each other to succeed.</p>
-            </div>
-            <div class="values-image">
-              <img src=http://localhost:1313/images/growth.svg alt="value 2">
-            </div>
-          </div>
-
-            <div class="values-row">
-                <div class="values-image">
-                  <img src=http://localhost:1313/images/love.svg alt="value 1">
-                </div>
-                <div class="values-content">
-                  <h2 class="values-text-header">3. Cherish Each Other</h2>
-                  <p class="values-text">We as Blueprint members seek to cherish our time spent together. We develop meaningful relationships that extend well beyond the scope of the organization. We value each other as individuals and appreciate our differences.</p>
+        <main style="font-family: Lato">
+            <div class="hero">
+                <div class="hero-img">
+                    <div class="text-header">About Us</div>
+                    <div class="text-content">
+                        Making technology accessible and useful for <br />
+                        those who create communities.
+                    </div>
                 </div>
             </div>
             
-            <div class="values-row">
-                <div class="values-content">
-                  <h2 class="values-text-header right-justified">4. Always Innovate</h2>
-                  <p class="values-text">We as Blueprint members value the academic, social, and personal growth of our peers. We constantly seek to perpetuate the cycle of learning and teaching, for our benefit and for others. We strive to offer a helping hand in times of need and push each other to succeed.</p>
-                </div>
-                <div class="values-image">
-                  <img src=http://localhost:1313/images/rocket.svg alt="value 2">
+            <div class="mission">
+                <div class="mission-header">Our Mission Statement</div>
+                <p class="mission-text">
+                    To make beautiful engineering accessible and useful for
+                    those who create communities and promote public welfare.
+                </p>
+                
+            </div>
+            <div class="our-values">
+                <h1 class="values-header">Our Values</h1>
+                <div class="values-container">
+                    <div class="values-row">
+                        <div class="values-image">
+                            <img src=http://localhost:1313/images/mountain.svg
+                            alt="value 1">
+                        </div>
+                        <div class="values-content">
+                            <h2 class="values-text-header">1. Mission First</h2>
+                            <p class="values-text">
+                                We as Blueprint members ultimately unify under
+                                one goal - achieving our mission. We place the
+                                interests of the people and partners we serve
+                                above our own. Our primary measure of success is
+                                the amount of positive impact we create through
+                                our work.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="values-row">
+                        <div class="values-content">
+                            <h2 class="values-text-header right-justified">
+                                2. Perpetual Growth
+                            </h2>
+                            <p class="values-text">
+                                We as Blueprint members value the academic,
+                                social, and personal growth of our peers. We
+                                constantly seek to perpetuate the cycle of
+                                learning and teaching, for our benefit and for
+                                others. We strive to offer a helping hand in
+                                times of need and push each other to succeed.
+                            </p>
+                        </div>
+                        <div class="values-image">
+                            <img src=http://localhost:1313/images/growth.svg
+                            alt="value 2">
+                        </div>
+                    </div>
+
+                    <div class="values-row">
+                        <div class="values-image">
+                            <img src=http://localhost:1313/images/love.svg alt="value
+                            1">
+                        </div>
+                        <div class="values-content">
+                            <h2 class="values-text-header">
+                                3. Cherish Each Other
+                            </h2>
+                            <p class="values-text">
+                                We as Blueprint members seek to cherish our time
+                                spent together. We develop meaningful
+                                relationships that extend well beyond the scope
+                                of the organization. We value each other as
+                                individuals and appreciate our differences.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="values-row">
+                        <div class="values-content">
+                            <h2 class="values-text-header right-justified">
+                                4. Always Innovate
+                            </h2>
+                            <p class="values-text">
+                                We as Blueprint members value the academic,
+                                social, and personal growth of our peers. We
+                                constantly seek to perpetuate the cycle of
+                                learning and teaching, for our benefit and for
+                                others. We strive to offer a helping hand in
+                                times of need and push each other to succeed.
+                            </p>
+                        </div>
+                        <div class="values-image">
+                            <img src=http://localhost:1313/images/rocket.svg
+                            alt="value 2">
+                        </div>
+                    </div>
+                    <div class="values-row">
+                        <div class="values-image">
+                            <img src=http://localhost:1313/images/support.svg
+                            alt="value 1">
+                        </div>
+                        <div class="values-content">
+                            <h2 class="values-text-header">5. Be Humble</h2>
+                            <p class="values-text">
+                                We as Blueprint members strive to remain humble,
+                                accept our imperfections, and be receptive to
+                                feedback. We approach challenges with an open
+                                mind and remember that anyone can pursue social
+                                good, not just Blueprint.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="values-row">
-                <div class="values-image">
-                  <img src=http://localhost:1313/images/support.svg alt="value 1">
-                </div>
-                <div class="values-content">
-                  <h2 class="values-text-header">5. Be Humble</h2>
-                  <p class="values-text">We as Blueprint members strive to remain humble, accept our imperfections, and be receptive to feedback. We approach challenges with an open mind and remember that anyone can pursue social good, not just Blueprint.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    </main>
-    <footer><div id="footer-div">
+        </main>
+        <footer><div id="footer-div">
   <div>
     <p style="color: white; font-size: 40px; font-weight: bold">
       <img src="../images/logo.png" alt="" width="30" />
@@ -135,27 +186,27 @@
   <div>
     <h3 class="h-top">General</h3>
     <div class="content-links">
-      <p>Home</p>
-      <p>Teams</p>
-      <p>Projects</p>
+      <p><a href=/>Home</a></p>
+      <p><a href=/meet-the-team>Teams</a></p>
+      <p><a href=/projects>Projects</a></p>
     </div>
   </div>
 
   <div>
     <h3 class="h-top">For Students</h3>
     <div class="content-links">
-      <p>Apply</p>
-      <p>Process</p>
-      <p>FAQs</p>
+      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj6pIXtvptM6WJORuUAg1blJhqR-L5ZssCpkTlsqleJRJcag/viewform?usp=sf_link">Apply</a></p>
+      <p><a  href="/forstudents">Process</a></p>
+      <p><a href="/forstudents#faq-sec">FAQs</a></p>
     </div>
   </div>
 
   <div>
     <h3 class="h-top">For Nonprofits</h3>
     <div class="content-links">
-      <p>Apply</p>
-      <p>Process</p>
-      <p>FAQs</p>
+      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfdpmq1FsUPIp1mRlJgmdbcJENuEg0IU3nB5KiIttYay-ebzA/viewform?usp=sf_link">Apply</a></p>
+      <p><a  href="/nonprofits">Process</a></p>
+      <p><a href="/nonprofits/#faq-sec">FAQs</a></p>
     </div>
   </div>
 
@@ -222,5 +273,5 @@
   </div>
 </div>
 </footer>
-  </body>
+    </body>
 </html>

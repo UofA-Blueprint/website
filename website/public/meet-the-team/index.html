@@ -28,7 +28,6 @@
   <div class="navBarContainer">
     <div class="navLogoContainer">
       <a href=/>
-        
         <img class="navLogo Logo" src="http://localhost:1313/images/bp-logo.png"
         alt="Profile Pic"/>
         <img class="navLogo mobileLogo" src="http://localhost:1313/images/logo.png"
@@ -39,17 +38,27 @@
     </div>
 
     <div class="navListContainer">
+      <div class="burgerMenu" id="burgerMenu">
+        <img class="burgerImg" src="http://localhost:1313/images/menu.png" alt="burger"/>
+      </div>
       <ul class="navList">
         <li><a class="navListItem" href=/about>About Us</a></li>
         <li><a class="navListItem" href=/projects>Projects</a></li>
         <li><a class="navListItem" href=/forstudents>For Students</a></li>
         <li><a  class="navListItem" href=/nonprofits>For Nonprofits</a></li>
         <li><a class="navListItem" href=/meet-the-team>The Team</a></li>
+        <li><a class="navListItem" href=/chapters>Chapters</a></li>
         <li><a class="navListItem" href=/sponsors>Partners</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<script>
+  document.getElementById('burgerMenu').addEventListener('click', function() {
+    var navList = document.querySelector('.navList');
+    navList.classList.toggle('show');
+  });
+</script>
 </header>
     <main><div class="team-hero">
   <div class="left">
@@ -57,7 +66,7 @@
     <h3 class="txt"><p>This team is a group of dedicated students looking to give back to their community, while working through school at the University of Alberta.</p>
 </h3>
     <div class="btns">
-      <button class="work" type="button">WORK WITH US</button>
+      <button class="work" type="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdj6pIXtvptM6WJORuUAg1blJhqR-L5ZssCpkTlsqleJRJcag/viewform?usp=sf_link'">WORK WITH US</button>
     </div>
   </div>
   <div class="right">
@@ -607,27 +616,27 @@
   <div>
     <h3 class="h-top">General</h3>
     <div class="content-links">
-      <p>Home</p>
-      <p>Teams</p>
-      <p>Projects</p>
+      <p><a href=/>Home</a></p>
+      <p><a href=/meet-the-team>Teams</a></p>
+      <p><a href=/projects>Projects</a></p>
     </div>
   </div>
 
   <div>
     <h3 class="h-top">For Students</h3>
     <div class="content-links">
-      <p>Apply</p>
-      <p>Process</p>
-      <p>FAQs</p>
+      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj6pIXtvptM6WJORuUAg1blJhqR-L5ZssCpkTlsqleJRJcag/viewform?usp=sf_link">Apply</a></p>
+      <p><a  href="/forstudents">Process</a></p>
+      <p><a href="/forstudents#faq-sec">FAQs</a></p>
     </div>
   </div>
 
   <div>
     <h3 class="h-top">For Nonprofits</h3>
     <div class="content-links">
-      <p>Apply</p>
-      <p>Process</p>
-      <p>FAQs</p>
+      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfdpmq1FsUPIp1mRlJgmdbcJENuEg0IU3nB5KiIttYay-ebzA/viewform?usp=sf_link">Apply</a></p>
+      <p><a  href="/nonprofits">Process</a></p>
+      <p><a href="/nonprofits/#faq-sec">FAQs</a></p>
     </div>
   </div>
 

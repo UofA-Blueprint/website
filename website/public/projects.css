@@ -98,6 +98,10 @@ border-radius: 20px 20px 0px 0px;
 height: 100px;
 }
 
+.projects-hero-img{
+  width: 460px;
+}
+
 .hp-projects {
 display: flex;
 justify-content:center;
@@ -125,4 +129,39 @@ text-align: center;
   font-size: 40px;
   margin: 0px;
   text-align: center;
+}
+
+@media(max-width: 768px) {
+  .projectsHero{
+    display: flex;
+    flex-direction: column;
+    background: var(--Dark-Blue, #0B2538);
+  }
+
+  .txt {
+    font-size: 20px;
+  }
+
+  .left {
+    padding-left: 20px;
+  }
+
+  .hp-projects{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project_div{
+    margin-bottom: 40px;
+  }
+
+  .right {
+    padding-right: 0px;
+    align-self: flex-end;
+  }
+
+  .projects-hero-img{
+    width: 350px !important;
+  }
+
 }
