@@ -45,14 +45,14 @@
     padding: 20px 30px;
   }
 
-  .hp-abt-title {
+  .hp-abt-title, .hp-project-header{
     font-family: Lato;
     color: #0078E8;
     font-size: 36px;
     margin: 0px;
   }
 
-  .hp-abt-txt {
+  .hp-abt-txt, .hp-project-txt {
     margin-bottom: 1%;
     font-family: Lato;
     color: #333333;
@@ -61,7 +61,7 @@
     letter-spacing: 0em;
   }
 
-  .abt-btn {
+  .abt-btn, .project-abt-btn {
     color: #3f99ed;
     font-size: 14px;
     font-family: "Roboto", sans-serif;
@@ -158,3 +158,55 @@
   font-size: 22px;
   text-align: center;
 }
+
+@media (max-width: 480px) {
+
+  /* Adjust body font size and spacing */
+  .hp-block, .hp-project-block {
+    font-family: "Lato", sans-serif;
+    background-color: #0B2538; /* Set background color */
+    color: white; /* Make text white for contrast */
+    flex-direction: column;
+    word-wrap: break-word; /* Prevent text overflow */
+  }
+
+  .hp-abt-block, .hp-projects, .hp-involved-cont {
+    flex-direction: column;
+  }
+
+  .left, .right, .div_i {
+    padding: 10px; 
+    max-width: 100%;
+    word-wrap: break-word; /* Ensure text wraps */
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .hp-involved-cont {
+    padding: 10px;
+  }
+
+  p {
+    word-wrap: break-word; /* Allow long words to break onto the next line */
+    overflow-wrap: break-word; /* Same as word-wrap for newer browsers */
+  }
+
+  .hp-project-header, .hp-project-txt {
+    color: white;
+  }
+
+  .project-abt-btn {
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    background-color: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    padding: 8px 13px;
+    margin-top: 15px;
+  }
+}
+
