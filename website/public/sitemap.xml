@@ -16,6 +16,8 @@
   </url><url>
     <loc>http://localhost:1313/meet-the-team/</loc>
   </url><url>
+    <loc>http://localhost:1313/chapters/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/sponsors/</loc>

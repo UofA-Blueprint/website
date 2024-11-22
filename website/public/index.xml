@@ -4,7 +4,7 @@
     <title>UofA BluePrint</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on UofA BluePrint</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Jan 2024 21:28:18 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -27,35 +27,42 @@
       <link>http://localhost:1313/forstudents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/forstudents/</guid>
-      <description>Joining Blueprint is a great way to give back to your community. Help us build our applications and work with nonprofits!</description>
+      <description>&lt;p&gt;Joining Blueprint is a great way to give back to your community. Help us build our applications and work with nonprofits!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Meet the team</title>
       <link>http://localhost:1313/meet-the-team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/meet-the-team/</guid>
-      <description>This team is a group of dedicated students looking to give back to their community, while working through school at the University of Alberta.</description>
+      <description>&lt;p&gt;This team is a group of dedicated students looking to give back to their community, while working through school at the University of Alberta.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Our Chapters</title>
+      <link>http://localhost:1313/chapters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/chapters/</guid>
+      <description></description>
     </item>
     <item>
       <title>Our Projects</title>
       <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>All of Blueprint’s work is open source because we believe in building technology that makes us more open and connected.</description>
+      <description>&lt;p&gt;All of Blueprint’s work is open source because we believe in&#xA;building technology that makes us more open and connected.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Our Sponsors and Partners</title>
       <link>http://localhost:1313/sponsors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/sponsors/</guid>
-      <description>Our sponsors help what we do here at Blueprint a realty. Take a moment and learn about them, you can also be part of the good work Blueprint does.</description>
+      <description>&lt;p&gt;Our sponsors help what we do here at Blueprint a realty. Take a moment and learn about them, you can also be part of the good work Blueprint does.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tech For Social Good</title>
       <link>http://localhost:1313/homepage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/homepage/</guid>
-      <description>We are a student group at the University of Alberta building web apps for nonprofits pro bono.</description>
+      <description>&lt;p&gt;We are a student group at the University of Alberta building web apps for nonprofits pro bono.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
