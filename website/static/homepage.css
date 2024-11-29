@@ -208,5 +208,30 @@
     padding: 8px 13px;
     margin-top: 15px;
   }
+
+  .project_div {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin: 10px 0px; 
+  }
+
+  .hp-projects {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+  }
+
+  .hp-abt-block {
+    background-color: white;
+    display: flex;
+    justify-content: center; /* Horizontally centers the child items */
+    align-items: center; /* Vertically centers the child items */
+    flex-direction: column; /* Maintains the row layout for child items */
+  }
+  
+  
 }
 
