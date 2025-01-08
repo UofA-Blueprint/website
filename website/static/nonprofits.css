@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
 
-body {
-  margin: 0px;
-}
-
 main {
   background-color: #0078e8;
   font-family: Lato;
@@ -75,8 +71,9 @@ main {
 }
 
 .hero-image {
-  width: 90%;
+  width: 100%;
   height: auto;
+  max-height: 20rem;
 }
 
 .services-container {
@@ -137,28 +134,6 @@ main {
 
 .right-justified {
   text-align: right;
-}
-
-@media (max-width: 768px) {
-  .service-row {
-    flex-direction: column;
-  }
-
-  .service-number {
-    display: none;
-  }
-
-  .service-header {
-    text-align: center;
-  }
-
-  .service-content {
-    text-align: center;
-  }
-
-  .service-reverse {
-    flex-direction: column-reverse;
-  }
 }
 
 .application-container {
@@ -300,6 +275,40 @@ p {
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 3rem 5vw;
+  }
+
+  .hero-image-container {
+    display: none;
+  }
+
+  .hero-content-container {
+    width: 100%;
+  }
+
+  .service-row {
+    flex-direction: column;
+  }
+
+  .service-number {
+    display: none;
+  }
+
+  .service-header {
+    text-align: center;
+  }
+
+  .service-content {
+    text-align: center;
+  }
+
+  .service-reverse {
+    flex-direction: column-reverse;
+  }
+}
+
 /* #learn-more-section {
   background-color: #f8f8f8;
   padding: 50px 0;
@@ -378,17 +387,3 @@ p {
 #learn-more-section button:hover {
   background-color: #005bb5;
 } */
-
-@media (max-width: 768px) {
-  .hero-container {
-    padding: 3rem 5vw;
-  }
-
-  .hero-image-container {
-    display: none;
-  }
-
-  .hero-content-container {
-    width: 100%;
-  }
-}
