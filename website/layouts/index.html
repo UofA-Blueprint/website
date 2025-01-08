@@ -2,7 +2,9 @@
 <html lang="en">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>UofA BluePrint</title>
+<title>
+  {{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}
+</title>
 <link rel="icon" href="http://localhost:1313/images/logo.png" type="image/x-icon"/>
 <link rel="stylesheet" href="http://localhost:1313/navbar.css">
 <link rel="stylesheet" href="http://localhost:1313/footer-style.css">
