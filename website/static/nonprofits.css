@@ -9,7 +9,6 @@ main {
 .hero-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   flex-wrap: nowrap;
@@ -39,7 +38,7 @@ main {
 }
 
 .hero-button-container {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
   display: flex;
   flex-direction: row;
   align-items: center;
