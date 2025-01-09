@@ -6,184 +6,224 @@ type = 'meet-the-team'
 [[teams]]
 name = "Executive Team"
 [[teams.members]]
-name = "Alice Johnson"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/alice"
+name = "Ayana Lefebvre"
+image = "images/team-members/execs/ayana.png"
+position = "Co-President"
+linkedin = "https://linkedin.com/in/ayana-lefebvre"
 
 [[teams.members]]
-name = "Bob Smith"
-image = "images/profile.png"
-position = "Postion"
-linkedin = "https://linkedin.com/in/bob"
+name = "Rudain Alnajdawi"
+image = "images/team-members/execs/rudain.png"
+position = "Co-President"
+linkedin = "https://linkedin.com/in/rudain-alnajdawi"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Jared Drueco"
+image = "images/team-members/execs/jared.png"
+position = "VP Engineering"
+linkedin = "https://linkedin.com/in/jareddrueco"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Imran Rafayet Amin"
+image = "images/team-members/execs/imran.png"
+position = "VP Design"
+linkedin = "https://linkedin.com/in/imran-rafa"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Vanessa Huang"
+image = "images/team-members/execs/vanessa.png"
+position = "VP Product"
+linkedin = "https://linkedin.com/in/vanessa-huang13"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Diya Randhawa"
+image = "images/team-members/execs/diya.png"
+position = "VP Internal"
+linkedin = "https://linkedin.com/in/diyarandhawa"
+
+[[teams.members]]
+name = "Heily Chhatiawala"
+image = "images/team-members/execs/heily.png"
+position = "VP Finance & Operations"
+linkedin = "https://linkedin.com/in/heily-chhatiawala"
+
+[[teams.members]]
+name = "Grace Padberg"
+image = "images/team-members/execs/grace.png"
+position = "VP Talent"
+linkedin = "https://linkedin.com/in/grace-padberg"
+
+[[teams.members]]
+name = "Rachel Ellis"
+image = "images/team-members/execs/rachel.png"
+position = "VP Events"
+linkedin = "https://linkedin.com/in/rachelellis01"
+
+[[teams.members]]
+name = "Veren Abeghe"
+image = "images/team-members/execs/veren.png"
+position = "Co-VP External"
+linkedin = "https://linkedin.com/in/iveren-abeghe"
+
+[[teams.members]]
+name = "Yar Mayen"
+image = "images/team-members/execs/yar.png"
+position = "Co-VP External"
+linkedin = "https://linkedin.com/in/yar-mayen"
+
+[[teams.members]]
+name = "Emily Kang"
+image = "images/team-members/execs/emily.png"
+position = "Co-VP Communications"
+linkedin = "https://linkedin.com/in/emily-kang"
+
+[[teams.members]]
+name = "Nyakhan Kueth Yoh"
+image = "images/team-members/execs/nyakhan.png"
+position = "Co-VP Communications"
+linkedin = "https://linkedin.com/in/nyakhan-yoh"
 
 [[teams]]
-name = "ISA Team"
+name = "Bissel Centre"
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Ayush Roy"
+image = "images/team-members/bissel/ayush.png"
+position = "Project Lead"
+linkedin = "https://linkedin.com/in/ayush-roy-6075a8aa"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Rachel Wang"
+image = "images/team-members/bissel/rachel-w.png"
+position = "Product Manager"
+linkedin = "https://linkedin.com/in/rachelwang3331"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Tracy Li"
+image = "images/team-members/bissel/tracy.png"
+position = "Product Design Lead"
+linkedin = "https://linkedin.com/in/tracy-li-6a6467186"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Faiyad Rahman"
+image = "images/team-members/bissel/faiyad.png"
+position = "Project Developer"
+linkedin = "https://linkedin.com/in/faiyadrahman"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Yash Jha"
+image = "images/team-members/bissel/yash.png"
+position = "Project Developer"
+linkedin = "https://linkedin.com/in/yash-jha-314a76145"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
-
-[[teams]]
-name = "DishZero Team"
-[[teams.members]]
-name = "Alice Johnson"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/alice"
+name = "Amal Mirza"
+image = "images/team-members/bissel/amal.png"
+position = "Product Designer"
+linkedin = "https://linkedin.com/in/amal-mirza-669b78229"
 
 [[teams.members]]
-name = "Bob Smith"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/bob"
+name = "Raunak Agarwal"
+image = "images/team-members/bissel/raunak.png"
+position = "Product Designer"
+linkedin = "https://linkedin.com/in/agar-raunak"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
-
-[[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
-
-[[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
-
-[[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Sai Charan Arvapally"
+image = "images/team-members/bissel/sai.png"
+position = "Product Designer"
+linkedin = "https://linkedin.com/in/sai-charan-arvapally-0464a41b2"
 
 [[teams]]
 name = "Alzheimer's Calgary Team"
 [[teams.members]]
-name = "Alice Johnson"
+name = "Duc Ho"
 image = "images/profile.png"
-position = "Position"
+position = "Project Lead"
 linkedin = "https://linkedin.com/in/alice"
 
 [[teams.members]]
-name = "Bob Smith"
+name = "Vanessa Huang"
 image = "images/profile.png"
-position = "Position"
+position = "Product Manager"
 linkedin = "https://linkedin.com/in/bob"
 
 [[teams.members]]
 name = "Carol Lee"
 image = "images/profile.png"
-position = "Position"
+position = "Product Design Lead"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
-name = "Carol Lee"
+name = "Alastair Cottier"
 image = "images/profile.png"
-position = "Position"
+position = "Project Developer"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
-name = "Carol Lee"
+name = "Thea Nguyen"
 image = "images/profile.png"
-position = "Position"
+position = "Project Developer"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams.members]]
-name = "Carol Lee"
+name = "Quoc Dinh"
 image = "images/profile.png"
-position = "Position"
+position = "Project Developer"
+linkedin = "https://linkedin.com/in/carol"
+
+[[teams.members]]
+name = "Shanemel Asuncion"
+image = "images/profile.png"
+position = "Project Developer"
 linkedin = "https://linkedin.com/in/carol"
 
 [[teams]]
 name = "Internal Tools Team"
 [[teams.members]]
-name = "Alice Johnson"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/alice"
+name = "Alastair Cottier"
+image = "images/team-members/itt/alastair.png"
+position = "Project Lead"
+linkedin = "https://linkedin.com/in/alastair-cottier"
 
 [[teams.members]]
-name = "Bob Smith"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/bob"
+name = "Matthew Fischer"
+image = "images/team-members/itt/matthew.png"
+position = "Product Manager"
+linkedin = "https://linkedin.com/in/matthew-fischer-b7464a209"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Mark Maligalig"
+image = "images/team-members/itt/mark.png"
+position = "Product Design Lead"
+linkedin = "https://linkedin.com/in/mark-maligalig"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Aagaman Gurung"
+image = "images/team-members/itt/aagaman.png"
+position = "Project Developer"
+linkedin = "https://linkedin.com/in/aagaman"
 
 [[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Position"
-linkedin = "https://linkedin.com/in/carol"
+name = "Aisha Suhail Khan"
+image = "images/team-members/itt/aisha.png"
+position = "Project Developer"
+linkedin = "https://linkedin.com/in/aishasuhailkhan"
+
+[[teams.members]]
+name = "Janukan Sivajeyan"
+image = "images/team-members/itt/janukan.png"
+position = "Project Developer"
+linkedin = "https://linkedin.com/in/janukan-sivajeyan-523152134"
+
+[[teams.members]]
+name = "Kaye Maranan"
+image = "images/team-members/itt/kaye.png"
+position = "Project Developer"
+linkedin = "https://linkedin.com/in/kayecryz"
+
+[[teams.members]]
+name = "Crystal Cho"
+image = "images/team-members/itt/crystal.png"
+position = "Product Designer"
+linkedin = "https://linkedin.com/in/soojeong-cho-441827181"
 +++

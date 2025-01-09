@@ -173,3 +173,17 @@ main .team-container:last-of-type > hr {
   height: auto;
   aspect-ratio: 1 / 1;
 }
+
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 3rem 5vw;
+  }
+
+  .hero-image-container {
+    display: none;
+  }
+
+  .hero-content-container {
+    width: 100%;
+  }
+}
