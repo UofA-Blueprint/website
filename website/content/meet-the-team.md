@@ -1,10 +1,7 @@
 +++
-title = 'Meet the team'
+title = 'Meet The Team'
 layout = 'meet-the-team/single'
 type = 'meet-the-team'
-work_button_text = "WORK WITH US"
-image_src = "images/about-us-discussion-website.svg"
-image_alt = "meet the team hero img"
 
 [[teams]]
 name = "Executive Team"
@@ -190,5 +187,3 @@ image = "images/profile.png"
 position = "Position"
 linkedin = "https://linkedin.com/in/carol"
 +++
-
-This team is a group of dedicated students looking to give back to their community, while working through school at the University of Alberta.

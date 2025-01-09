@@ -1,0 +1,8 @@
+<div class="team-container">
+  <h2 class="team-header">{{.name}}</h2>
+  <div class="team-members-container">
+    {{ range .members }} {{- partial "meet-the-team/team-member.html" . -}} {{
+    end }}
+  </div>
+  <hr class="team-break" />
+</div>

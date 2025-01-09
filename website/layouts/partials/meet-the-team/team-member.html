@@ -1,0 +1,21 @@
+<div class="team-member">
+  <div class="member-image-container">
+    <img
+      class="member-image"
+      src="{{ .image | absURL }}"
+      alt="Profile Picture"
+    />
+  </div>
+  <div class="member-info-container">
+    <div class="member-info">
+      <p class="member-name">{{ .name }}</p>
+      <p class="member-position">{{ .position }}</p>
+    </div>
+    {{ if .linkedin }}
+    <a href="{{ .linkedin }}" class="member-linkedin-container"
+      ><img class="member-linkedin" src={{"images/LinkedInDark.png" | absURL}}
+      alt="LinkedIn"/></a
+    >
+    {{ end }}
+  </div>
+</div>
