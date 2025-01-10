@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
+
 html,
 body {
   margin: 0;
@@ -19,10 +21,40 @@ body {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 19.5rem;
+  font-family: Lato;
+}
+
+.card-image-container {
+  width: 18rem;
+  height: 7rem;
+  overflow: hidden;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .card-image {
   width: 18rem;
-  border-radius: 0.5rem 0.5rem 0 0;
-  height: 6rem;
+  height: auto;
+}
+
+.card-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  width: 100%;
+  height: 13.5rem;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  margin: 0;
+  color: var(--Dark-Blue, #0b2538);
+}
+
+.card-content {
+  font-size: 1.125rem;
+  margin: 0;
+  color: var(--Dark-Gray, #333333);
 }
