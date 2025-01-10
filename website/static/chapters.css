@@ -38,28 +38,6 @@ main {
   margin: 0;
 }
 
-.hero-button-container {
-  margin-top: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.hero-button {
-  color: #ffffff;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  background-color: inherit;
-  border: 1px solid white;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  padding: 8px 13px;
-}
-
-.hero-button:hover {
-  background-color: #3f99ed;
-}
-
 .chapters-container {
   display: flex;
   padding: 3rem 10vw;
