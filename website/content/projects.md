@@ -2,8 +2,29 @@
 title = 'Our Projects'
 layout = 'projects/single'
 type = 'projects'
-work_button_text = 'WORK WITH US'
-+++
 
-All of Blueprint’s work is open source because we believe in
-building technology that makes us more open and connected.
+[[currentProjects]]
+header = "Bissell Center"
+blurb = ""
+image = ""
+
+[[currentProjects]]
+header = "Internal Tools"
+blurb = ""
+image = ""
+
+[[currentProjects]]
+header = "Alzheimer Society of Calgary"
+blurb = ""
+image = ""
+
+[[pastProjects]]
+header = "International Students' Association"
+blurb = ""
+image = ""
+
+[[pastProjects]]
+header = "Dish Zero"
+blurb = ""
+image = ""
++++
