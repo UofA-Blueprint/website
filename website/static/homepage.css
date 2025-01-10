@@ -1,237 +1,311 @@
-.hp-block {
-    display: flex;
-    justify-content:space-between;
-    flex-direction: row;
-    padding: 0px 30px;
-  }
-  
-  .left {
-    flex: 9;
-    flex-direction: column;
-    align-self: center;
-    padding-left: 66px;
-  }
-  
-  .right {
-    flex: 1;
-    padding-right: 55px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    align-self: right;
-    height: auto;
-  }
-  
-  .hp-title {
-    font-family: Lato;
-    color: white;
-    font-size: 48px;
-    margin: 0px;
-  }
-  
-  .hp-txt {
-    margin-bottom: 1%;
-    font-family: Lato;
-    color: white;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0em;
-  }
-
-  .hp-abt-block {
-    background-color: white;
-    display: flex;
-    justify-content:space-between;
-    flex-direction: row;
-    padding: 20px 30px;
-  }
-
-  .hp-abt-title, .hp-project-header{
-    font-family: Lato;
-    color: #0078E8;
-    font-size: 36px;
-    margin: 0px;
-  }
-
-  .hp-abt-txt, .hp-project-txt {
-    margin-bottom: 1%;
-    font-family: Lato;
-    color: #333333;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0em;
-  }
-
-  .abt-btn, .project-abt-btn {
-    color: #3f99ed;
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
-    background-color: inherit;
-    border: 1px solid #3f99ed;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    padding: 8px 13px;
-    margin-top: 15px;
-  }
-
-  .abt-btn:hover {
-    background-color:#0078E8;
-    color: white;
-    border: 1px solid #0078E8;
-  }
-
-  .hp-projects-cont {
-    background-color: #F8F8F8;
-    display: flex;
-    align-items: center; /* Vertically center the children */
-    justify-content:center;
-    flex-direction: row;
-    padding: 20px 30px;
-  }
-
-  .hp-involved-title {
-    font-family: Lato;
-    color: black;
-    font-size: 36px;
-    margin: 0px;
-    align-self: center;
-  }
-
-  .hp-involved-cont {
-    background-color: white;
-    display: flex;
-    justify-content: center; /* Horizontally center the children */
-    align-items: center; /* Vertically center the children */
-    flex-direction: row;
-    padding: 40px 30px;
-  }
-
-  .hp-involved-sub-title {
-    font-family: Lato;
-    color: black;
-    font-size: 27px;
-    margin: 0px;
-    text-align: center;
-  }
-
-  .div_i {
-    width: 300px;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 100px;
-  }
-
-  .project_div {
-    width: 275px;
-    border-radius: 20px;
-    background-color: #CBE0F8;
-    margin: 0px 40px;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-}
-  
-.hp-project-block {
-  background-color: #F8F8F8;
-  display: flex;
-  justify-content:space-between;
-  flex-direction: column;
-  padding: 60px 30px;
-}
-
-.project-img {
-  width: 275px;
-  border-radius: 20px 20px 0px 0px;
-}
-
-.hp-projects {
-  display: flex;
-  justify-content:center;
-  flex-direction: row;
-  padding-top: 50px;
-}
-
-.hp-project-title {
+main {
+  background-color: #0078e8;
   font-family: Lato;
-  color: #0078E8;
-  font-size: 22px;
+  width: 100%;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  width: 100%;
+  flex-wrap: nowrap;
+  height: 28rem;
+  padding: 2rem 5vw;
+}
+
+.hero-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 40%;
+  min-width: 16.5rem;
+  gap: 1rem;
+}
+
+.hero-header {
+  color: white;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-content {
+  color: white;
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.hero-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: right;
+}
+
+.hero-image {
+  max-height: 24rem;
+  width: 100%;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  width: 100%;
+  flex-wrap: nowrap;
+  height: 24rem;
+  padding: 2rem 5vw;
+  background-color: #ffffff;
+}
+
+.about-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 60%;
+  min-width: 26rem;
+  gap: 1rem;
+}
+
+.about-header {
+  color: var(--Primary, #0078e8);
+  font-size: 2.25rem;
+  margin: 0;
+}
+
+.about-content {
+  color: var(--Dark-Gray, #333333);
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.about-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: right;
+}
+
+.about-image {
+  max-height: 20rem;
+  width: 100%;
+}
+
+.about-button-container {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-button {
+  color: var(--Primary, #0078e8);
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  background-color: inherit;
+  border: 1px solid var(--Primary, #0078e8);
+  border-radius: 5px;
+  padding: 8px 13px;
+  cursor: pointer;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 3rem 5vw;
+  gap: 3rem;
+  background-color: #f8f8f8;
+}
+
+.projects-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  width: 80%;
+}
+
+.projects-header {
+  color: var(--Primary, #0078e8);
+  font-size: 2.25rem;
+  margin: 0;
+}
+
+.projects-info-content {
+  color: var(--Dark-Gray, #333333);
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.projects-button-container {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projects-button {
+  color: var(--Primary, #0078e8);
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  background-color: inherit;
+  border: 1px solid var(--Primary, #0078e8);
+  border-radius: 5px;
+  padding: 8px 13px;
+  cursor: pointer;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+  padding: 0 10rem;
+  flex-wrap: wrap;
+}
+
+.involved-container {
+  display: flex;
+  width: 100%;
+  padding: 3rem 10vw;
+  gap: 2.5rem;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.involved-header {
+  font-size: 2.25rem;
   text-align: center;
+  margin: 0;
+  color: var(--Dark-Blue, #0b2538);
 }
 
-@media (max-width: 480px) {
-
-  /* Adjust body font size and spacing */
-  .hp-block, .hp-project-block {
-    font-family: "Lato", sans-serif;
-    background-color: #0B2538; /* Set background color */
-    color: white; /* Make text white for contrast */
-    flex-direction: column;
-    word-wrap: break-word; /* Prevent text overflow */
-  }
-
-  .hp-abt-block, .hp-projects, .hp-involved-cont {
-    flex-direction: column;
-  }
-
-  .left, .right, .div_i {
-    padding: 10px; 
-    max-width: 100%;
-    word-wrap: break-word; /* Ensure text wraps */
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  .hp-involved-cont {
-    padding: 10px;
-  }
-
-  p {
-    word-wrap: break-word; /* Allow long words to break onto the next line */
-    overflow-wrap: break-word; /* Same as word-wrap for newer browsers */
-  }
-
-  .hp-project-header, .hp-project-txt {
-    color: white;
-  }
-
-  .project-abt-btn {
-    color: white;
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
-    background-color: inherit;
-    border: 1px solid white;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    padding: 8px 13px;
-    margin-top: 15px;
-  }
-
-  .project_div {
-    display: flex; 
-    justify-content: center;
-    align-items: center; 
-    margin: 10px 0px; 
-  }
-
-  .hp-projects {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-wrap: wrap; 
-    gap: 20px; 
-  }
-
-  .hp-abt-block {
-    background-color: white;
-    display: flex;
-    justify-content: center; /* Horizontally centers the child items */
-    align-items: center; /* Vertically centers the child items */
-    flex-direction: column; /* Maintains the row layout for child items */
-  }
-  
-  
+.involved-content-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
 }
 
+.involved-item {
+  height: 22rem;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.involved-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.involved-image {
+  max-height: 12rem;
+}
+
+.involved-item h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  color: var(--Dark-Blue, #0b2538);
+}
+
+.involved-item p {
+  font-size: 1.125rem;
+  text-align: center;
+  margin: 0;
+  color: var(--Dark-Gray, #333333);
+}
+
+.involved-button-container {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.involved-button {
+  color: var(--Primary, #0078e8);
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  background-color: inherit;
+  border: 1px solid var(--Primary, #0078e8);
+  border-radius: 5px;
+  padding: 8px 13px;
+  cursor: pointer;
+}
+
+/*
+
+There is some hacky stuff here:
+
+I am essentially wrapping the oldest post underneath
+the others when the screen gets smaller. However, I 
+limit the height of the div such that it gets hidden.
+
+Be cautious when modifying...
+
+*/
+.instagram-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem 5vw;
+  background-color: #f8f8f8;
+  width: 100%;
+  overflow: scroll;
+  flex-wrap: wrap;
+  max-height: 40.375rem;
+  overflow: hidden;
+}
+
+.instagram-container iframe {
+  margin-bottom: 5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 3rem 5vw;
+  }
+
+  .hero-image-container {
+    display: none;
+  }
+
+  .hero-content-container {
+    width: 100%;
+  }
+
+  .about-container {
+    padding: 3rem 5vw;
+  }
+
+  .about-image-container {
+    display: none;
+  }
+
+  .about-content-container {
+    width: 100%;
+  }
+
+  .projects-info-container {
+    width: 100%;
+  }
+}

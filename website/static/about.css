@@ -66,25 +66,6 @@ main {
   color: var(--Dark-Gray, #333333);
 }
 
-/* .more-button {
-  color: #3f99ed;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  background-color: inherit;
-  border: 1px solid #3f99ed;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  padding: 8px 13px;
-  margin-top: 15px;
-  width: 135px;
-} */
-
-/* .more-button:hover {
-  background-color: #0078e8;
-  color: white;
-  border: 1px solid #0078e8;
-} */
-
 .values-container {
   display: flex;
   padding: 3rem 10%;

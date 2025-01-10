@@ -14,10 +14,6 @@
   margin-top: 0.5rem;
 }
 
-.mobile-logo {
-  display: none;
-}
-
 .desktop-logo {
   display: block;
 }
@@ -64,7 +60,6 @@
 }
 
 .burger-image {
-  display: none;
   width: 10vw;
   max-width: 2.5rem;
   cursor: pointer;
@@ -107,47 +102,4 @@
     justify-content: flex-end;
     align-items: center;
   }
-
-  .white-burger {
-    display: block !important;
-  }
-  
 }
-
-/* @media (max-width: 768px) {
-  .desktop-logo {
-    display: none;
-  }
-
-  .mobile-logo {
-    display: block;
-    width: 42px;
-    flex-shrink: 42px;
-    margin-left: 20px;
-  }
-
-  .nav-container {
-    padding: 0 0 0 0;
-  }
-
-  .nav {
-    background: var(--Dark-Blue, #0b2538);
-  }
-
-  .nav-logo-text {
-    display: block;
-    color: var(--White, #fff);
-    font-family: Arimo;
-    font-size: 23.135px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 5.78px;
-  }
-
-  .menu {
-    width: 330px;
-    height: 330px;
-    flex-shrink: 0;
-  }
-} */
