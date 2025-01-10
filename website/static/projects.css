@@ -1,5 +1,5 @@
 main {
-  background-color: #0078e8;
+  background-color: var(--Primary, #0078e8);
   font-family: Lato;
   width: 100%;
 }
@@ -96,7 +96,7 @@ main {
   padding: 3rem 10vw;
   gap: 3rem;
   flex-direction: column;
-  background-color: #f8f8f8;
+  background-color: var(--Light-Gray, #f8f8f8);
 }
 
 .projects-header {

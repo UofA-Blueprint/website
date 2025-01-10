@@ -1,5 +1,5 @@
 main {
-  background-color: #0078e8;
+  background-color: var(--Primary, #0078e8);
   font-family: Lato;
   width: 100%;
 }
@@ -119,7 +119,7 @@ main {
   width: 100%;
   padding: 3rem 5vw;
   gap: 3rem;
-  background-color: #f8f8f8;
+  background-color: var(--Light-Gray, #f8f8f8);
 }
 
 .projects-info-container {
@@ -266,7 +266,7 @@ Be cautious when modifying...
   align-items: center;
   gap: 1rem;
   padding: 3rem 5vw;
-  background-color: #f8f8f8;
+  background-color: var(--Light-Gray, #f8f8f8);
   width: 100%;
   overflow: scroll;
   flex-wrap: wrap;
