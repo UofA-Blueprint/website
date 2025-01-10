@@ -1,59 +1,107 @@
-.chapter-div {
-    display: flex;
-    flex-direction: row;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
+
+main {
+  background-color: #0078e8;
+  font-family: Lato;
+  width: 100%;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 55%;
+  flex-wrap: nowrap;
+  min-height: 24rem;
+  padding: 3rem 5vw;
+}
+
+.hero-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.hero-header {
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.hero-content {
+  color: white;
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.hero-button-container {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-button {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  padding: 8px 13px;
+}
+
+.hero-button:hover {
+  background-color: #3f99ed;
+}
+
+.chapters-container {
+  display: flex;
+  padding: 3rem 10vw;
+  gap: 3rem;
+  flex-direction: column;
+  background-color: #ffffffff;
+}
+
+.chapter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.chapter-header {
+  font-size: 2.25rem;
+  text-align: left;
+  margin: 0;
+  color: var(--Dark-Blue, #0b2538);
+}
+
+.chapter-flag {
+  height: 2.7rem;
+  margin-bottom: -0.5rem;
+  margin-left: 0.5rem;
+}
+
+.chapter-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 5.5rem;
+  gap: 5rem;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    width: 100%;
   }
-  
-  .left {
-    flex: 9;
-    flex-direction: column;
-    padding-left: 66px;
-    padding-right: 50px;
-    margin-bottom: 40px;
-    padding-bottom: 30px;
+
+  .hero-content-container {
+    width: 100%;
   }
-  
-  .btns {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .right {
-    flex: 5;
-    padding-right: 50px;
-    padding-top: 10px;
-    align-self: right;
-    margin-top: 30px;
-  }
-  
-  .headerTxt {
-    font-family: Lato;
-    color: white;
-    font-size: 42px;
-  }
-  
-  .txt {
-    margin-bottom: 1%;
-    font-family: Lato;
-    color: white;
-    font-size: 28px;
-    font-weight: 300;
-    letter-spacing: 0em;
-  }
-  
-  .work {
-    color: #ffffff;
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
-    background-color: inherit;
-    border: 1px solid white;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    padding: 8px 13px;
-    margin-top: 8px;
-  }
-  
-  .work:hover {
-    background-color: #3f99ed;
-  }
+}

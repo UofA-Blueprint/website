@@ -8,3 +8,21 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 18rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 19.5rem;
+}
+
+.card-image {
+  width: 18rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  height: 6rem;
+}

@@ -3,5 +3,27 @@ title = 'Our Chapters'
 layout = 'chapters/single'
 type = 'chapters'
 
-header_text = 'Blueprint was founded at UC Berkeley in Spring 2013. Since then we started scaling our impact and further mission by establishing chapters in different colleges around the world, including us!'
+[[canadaChapters]]
+header = "University of Waterloo"
+blurb = "Waterloo, Ontario"
+
+[[canadaChapters]]
+header = "University of Toronto"
+blurb = "Toronto, Ontario"
+
+[[canadaChapters]]
+header = "SFU"
+blurb = "Burnaby, British Columbia"
+
+[[usaChapters]]
+header = "UC Berkeley"
+blurb = "Berkeley, California"
+
+[[usaChapters]]
+header = "UCLA"
+blurb = "Los Angeles, California"
+
+[[usaChapters]]
+header = "UC Irvine"
+blurb = "Irvine, California"
 +++
