@@ -4,7 +4,7 @@ layout = 'projects/single'
 type = 'projects'
 
 [[currentProjects]]
-header = "Bissell Center"
+header = "Bissell Centre"
 blurb = ""
 image = ""
 

@@ -1,5 +1,5 @@
 main {
-  background-color: #0078e8;
+  background-color: var(--Primary, #0078e8);
   font-family: Lato;
   width: 100%;
 }
@@ -67,15 +67,9 @@ main {
   background-color: inherit;
   border: 1px solid white;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
   padding: 8px 13px;
   min-width: max-content;
   cursor: pointer;
-}
-
-.hero-button-work:hover,
-.hero-button-github:hover {
-  background-color: #3f99ed;
 }
 
 .hero-image-container {
@@ -102,7 +96,7 @@ main {
   padding: 3rem 10vw;
   gap: 3rem;
   flex-direction: column;
-  background-color: #f8f8f8;
+  background-color: var(--Light-Gray, #f8f8f8);
 }
 
 .projects-header {

@@ -1,100 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>
-  {{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}
-</title>
-<link rel="icon" href="http://localhost:1313/images/logo.png" type="image/x-icon"/>
-<link rel="stylesheet" href="http://localhost:1313/navbar.css">
-<link rel="stylesheet" href="http://localhost:1313/footer-style.css">
-<link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Lato&display=swap"
-/>
-<link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Arimo:700&display=swap"
-/>
-<link rel="stylesheet" href="http://localhost:1313/homepage.css">
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
-    </style>
+  <head>
+    {{- partial "head.html" . -}}
+    <script
+      src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload"
+      data-no-instant
+      defer
+    ></script>
+    <link rel="stylesheet" href="http://localhost:1313/homepage.css" />
   </head>
-  <body style="margin: 0px">
+  <body>
     <header>{{- partial "header.html" . -}}</header>
-    <main style="background-color: #0078e8">
-      <div class="hp-block">
-        <div class="left">
-          <h1 class="hp-title">Tech For Social Good</h1>
-          <h3 class="hp-txt" style="width: 550px;"><p>We are a student group at the University of Alberta building web apps for nonprofits pro bono.</p>
-</h3>
-        </div>
-        <div class="right">
-          <img  src=http://localhost:1313/images/home-collaboration.svg alt="home collaboration image">
-        </div>
-      </div>
-      
-      <div class="hp-abt-block">
-        <div class="left">
-          <h1 class="hp-abt-title">About Us</h1>
-          <h3 class="hp-abt-txt" style="width: 550px;">Blueprint is a student-run organization that creates technological solutions for nonprofit organizations.</h3>
-          <h3 class="hp-abt-txt" style="width: 550px;">Blueprint is a multinational organization founded in 2013 at the University of California, Berkeley. Our UofA Chapter is the fourth established chapter in Canada and the first one in Western Canada.</h3>
-          <button class="abt-btn" onclick="window.location.href='/about'">READ MORE</button>
-        </div>
-        <div class="right">
-          <img  src=http://localhost:1313/images/home-about-us-diagram.svg alt="home about us image">
-        </div>
-      </div>
-      <div class="hp-project-block">
-        <div style="padding-left: 66px;">
-          <h1 class="hp-abt-title">Our Projects</h1>
-          <h3 class="hp-abt-txt">Each year, teams of five students work with non-profit organizations on projects to help them better serve their communities.</h3>
-          <button class="abt-btn" onclick="window.location.href='/projects'">VIEW ALL PROJECTS</button>
-        </div>
-        <div class="hp-projects">
-          <div class="project_div">
-            <img  src=http://localhost:1313/images/default-project.png alt="default-project" class="project-img">
-            <h3 class="hp-project-title">Alzheimer Calgary (ASC)</h3>
-          </div>
-          <div class="project_div">
-            <img  src=http://localhost:1313/images/default-project.png alt="default-project" class="project-img">
-            <h3 class="hp-project-title">DishZero</h3>
-          </div>
-          <div class="project_div">
-            <img  src=http://localhost:1313/images/default-project.png alt="default-project" class="project-img">
-            <h3 class="hp-project-title">ISA</h3>
-          </div>
-        </div>
-      </div>
-      <div class="hp-involved-cont" style="padding-top: 70px;">
-        <h1 class="hp-involved-title">Get Involved</h1>
-      </div>
-      <div class="hp-involved-cont" style="padding-bottom: 70px;">
-        <div class="div_i">
-          <img  src=http://localhost:1313/images/cap.png alt="graduation cap" style="width:200px;">
-          <h1 class="hp-involved-sub-title">For Students</h1>
-          <h3 class="hp-abt-txt" style="text-align: center;">Joining Blueprint is the perfect way to give back to the community.</h3>
-          <button class="abt-btn" onclick="window.location.href='/students'">LEARN MORE</button>
-        </div>
-        <div class="div_i">
-          <img  src=http://localhost:1313/images/office-building.png alt="office building image" style="width:200px;">
-          <h1 class="hp-involved-sub-title">For Nonprofits</h1>
-          <h3 class="hp-abt-txt" style="text-align: center;">Partner with Blueprint to meet your digital needs.</h3>
-          <button class="abt-btn" onclick="window.location.href='/nonprofits'">LEARN MORE</button>
-        </div>
-      </div>
-        <div class="hp-abt-block" style="background-color: #F8F8F8;">
-          <iframe width="320" height="530" style="padding: 20px 0px;" src="https://www.instagram.com/p/C4YQBilRd0F/embed/" frameborder="0"></iframe>
-
-          <iframe width="320" height="530" style="padding: 20px 0px;"src="https://www.instagram.com/p/C15Wnd1vWzb/embed/" frameborder="0"></iframe>
-
-          <iframe width="320" height="530" style="padding: 20px 0px;" src="https://www.instagram.com/p/C4q-z5Iv7gN/embed/" frameborder="0"></iframe>
-
-          <iframe width="320" height="530" style="padding: 20px 0px;"src="https://www.instagram.com/p/C36A783SRxZ/embed/" frameborder="0"></iframe>
-        </div>
-      </div>
-    </main>
+    <main>{{- partial "homepage.html" . -}}</main>
     <footer>{{- partial "footer.html" . -}}</footer>
   </body>
 </html>

@@ -1,6 +1,6 @@
 #footer {
   padding: 20px 60px;
-  background-color: #333333;
+  background-color: var(--Dark-Gray, #333333);
   display: flex;
   flex-direction: row;
   gap: 8%;

@@ -1,5 +1,5 @@
 main {
-  background-color: #0078e8;
+  background-color: var(--Primary, #0078e8);
   font-family: Lato;
   width: 100%;
 }

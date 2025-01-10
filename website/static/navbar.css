@@ -1,5 +1,5 @@
 .nav {
-  background-color: #0078e8;
+  background-color: var(--Primary, #0078e8);
 }
 
 .nav-container {
@@ -12,10 +12,6 @@
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
-}
-
-.mobile-logo {
-  display: none;
 }
 
 .desktop-logo {
@@ -47,7 +43,7 @@
   letter-spacing: 0.03rem;
   font-weight: bold;
   font-family: "Lato", sans-serif;
-  color: #ffffffff;
+  color: #ffffff;
   white-space: nowrap;
 }
 
@@ -64,7 +60,6 @@
 }
 
 .burger-image {
-  display: none;
   width: 10vw;
   max-width: 2.5rem;
   cursor: pointer;
@@ -84,7 +79,7 @@
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #0078e8;
+    background-color: var(--Primary, #0078e8);
     padding: 1.5rem;
     border-radius: 0.5rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -107,47 +102,4 @@
     justify-content: flex-end;
     align-items: center;
   }
-
-  .white-burger {
-    display: block !important;
-  }
-  
 }
-
-/* @media (max-width: 768px) {
-  .desktop-logo {
-    display: none;
-  }
-
-  .mobile-logo {
-    display: block;
-    width: 42px;
-    flex-shrink: 42px;
-    margin-left: 20px;
-  }
-
-  .nav-container {
-    padding: 0 0 0 0;
-  }
-
-  .nav {
-    background: var(--Dark-Blue, #0b2538);
-  }
-
-  .nav-logo-text {
-    display: block;
-    color: var(--White, #fff);
-    font-family: Arimo;
-    font-size: 23.135px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 5.78px;
-  }
-
-  .menu {
-    width: 330px;
-    height: 330px;
-    flex-shrink: 0;
-  }
-} */

@@ -30,18 +30,6 @@ main {
   font-size: 1.5rem;
 }
 
-/* .section-header {
-  display: flex;
-  flex-direction: row;
-  font-family: "Roboto";
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-  color: white;
-  justify-content: space-evenly;
-  background-color: #0078e8;
-  margin-right: 20%;
-  margin-left: 20%;
-} */
-
 .mission-container {
   display: flex;
   flex-direction: column;
@@ -54,7 +42,7 @@ main {
 .mission-header {
   font-size: 2.25rem;
   text-align: center;
-  color: #0078e8;
+  color: var(--Primary, #0078e8);
   margin: 0;
 }
 
@@ -66,31 +54,12 @@ main {
   color: var(--Dark-Gray, #333333);
 }
 
-/* .more-button {
-  color: #3f99ed;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  background-color: inherit;
-  border: 1px solid #3f99ed;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  padding: 8px 13px;
-  margin-top: 15px;
-  width: 135px;
-} */
-
-/* .more-button:hover {
-  background-color: #0078e8;
-  color: white;
-  border: 1px solid #0078e8;
-} */
-
 .values-container {
   display: flex;
   padding: 3rem 10%;
   gap: 3rem;
   flex-direction: column;
-  background-color: #f8f8f8;
+  background-color: var(--Light-Gray, #f8f8f8);
 }
 
 .values-header {
@@ -125,7 +94,7 @@ main {
 }
 
 .value-header {
-  color: #0078e8;
+  color: var(--Primary, #0078e8);
   font-size: 1.5rem;
   margin: 0;
 }

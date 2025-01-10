@@ -1,0 +1,135 @@
+<div class="hero-container">
+  <div class="hero-content-container">
+    <h1 class="hero-header">Tech For Social Good</h1>
+    <p class="hero-content">
+      We are a student group at the University of Alberta building web apps for
+      nonprofits pro bono.
+    </p>
+  </div>
+  <div class="hero-image-container">
+    <img src={{"images/home-collaboration.svg" | absURL }} alt="Home Creative
+    Graphic" class="hero-image">
+  </div>
+</div>
+
+<div class="about-container">
+  <div class="about-content-container">
+    <h2 class="about-header">About Us</h2>
+    <p class="about-content">
+      Blueprint is a student-run organization that creates technological
+      solutions for nonprofit organizations.<br /><br />Blueprint is a
+      multinational organization founded in 2013 at the University of
+      California, Berkeley. Our UofA Chapter is the fourth established chapter
+      in Canada and the first one in Western Canada.
+    </p>
+    <div class="about-button-container">
+      <button class="about-button" onclick="window.location.href='/about/'">
+        READ MORE
+      </button>
+    </div>
+  </div>
+  <div class="about-image-container">
+    <img src={{"images/home-about-us-diagram.svg" | absURL }} alt="About Us
+    Creative Graphic" class="about-image">
+  </div>
+</div>
+
+<div class="projects-container">
+  <div class="projects-info-container">
+    <h2 class="projects-header">Our Projects</h2>
+    <p class="projects-info-content">
+      Each year, teams of five students work with non-profit organizations on
+      projects to help them better serve their communities.
+    </p>
+    <div class="projects-button-container">
+      <button
+        class="projects-button"
+        onclick="window.location.href='/projects/'"
+      >
+        VIEW ALL PROJECTS
+      </button>
+    </div>
+  </div>
+  <div class="projects-content">
+    {{ range .Site.Params.currentProjects }} {{ partial "card.html" . }} {{ end
+    }}
+  </div>
+</div>
+
+<div class="involved-container">
+  <h2 class="involved-header">Get Involved</h2>
+  <div class="involved-content-container">
+    <div class="involved-item">
+      <div>
+        <img src={{"images/cap.png" | absURL }} alt="Graduation Cap Image"
+        class="involved-image">
+        <h3>For Students</h3>
+      </div>
+      <div class="involved-item-content">
+        <p>
+          Joining Blueprint is the perfect way to give back to the community.
+        </p>
+        <div class="involved-button-container">
+          <button
+            class="involved-button"
+            onclick="window.location.href='/students/'"
+          >
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="involved-item">
+      <div>
+        <img src={{"images/office-building.png" | absURL }} alt="Office Building
+        Image" class="involved-image">
+        <h3>For Nonprofits</h3>
+      </div>
+      <div class="involved-item-content">
+        <p>Partner with Blueprint to meet your digital needs.</p>
+        <div class="involved-button-container">
+          <button
+            class="involved-button"
+            onclick="window.location.href='/nonprofits/'"
+          >
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="instagram-container">
+  <iframe
+    width="320"
+    height="550"
+    scrolling="no"
+    frameborder="0"
+    src="https://www.instagram.com/p/C4YQBilRd0F/embed/"
+  ></iframe>
+
+  <iframe
+    width="320"
+    height="550"
+    scrolling="no"
+    frameborder="0"
+    src="https://www.instagram.com/p/C15Wnd1vWzb/embed/"
+  ></iframe>
+
+  <iframe
+    width="320"
+    height="550"
+    scrolling="no"
+    frameborder="0"
+    src="https://www.instagram.com/p/C4q-z5Iv7gN/embed/"
+  ></iframe>
+
+  <iframe
+    width="320"
+    height="550"
+    scrolling="no"
+    frameborder="0"
+    src="https://www.instagram.com/p/C36A783SRxZ/embed/"
+  ></iframe>
+</div>
