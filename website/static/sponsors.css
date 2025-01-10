@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
 
-.main {
+main {
   background-color: #0078e8;
   font-family: Lato;
   width: 100%;
@@ -9,7 +9,6 @@
 .hero-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 3rem;
   width: 100%;
@@ -40,7 +39,7 @@
 }
 
 .hero-button-container {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -101,7 +100,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 3rem 3rem 3rem;
+  padding: 0 3rem;
   gap: 5rem;
   width: 100%;
 }
