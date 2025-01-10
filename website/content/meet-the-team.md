@@ -42,12 +42,6 @@ position = "VP Internal"
 linkedin = "https://linkedin.com/in/diyarandhawa"
 
 [[teams.members]]
-name = "Heily Chhatiawala"
-image = "images/team-members/execs/heily.png"
-position = "VP Finance & Operations"
-linkedin = "https://linkedin.com/in/heily-chhatiawala"
-
-[[teams.members]]
 name = "Grace Padberg"
 image = "images/team-members/execs/grace.png"
 position = "VP Talent"
@@ -84,98 +78,48 @@ position = "Co-VP Communications"
 linkedin = "https://linkedin.com/in/nyakhan-yoh"
 
 [[teams]]
-name = "Bissel Centre"
+name = "Bissell Centre"
 [[teams.members]]
 name = "Ayush Roy"
-image = "images/team-members/bissel/ayush.png"
+image = "images/team-members/bissell/ayush.png"
 position = "Project Lead"
 linkedin = "https://linkedin.com/in/ayush-roy-6075a8aa"
 
 [[teams.members]]
 name = "Rachel Wang"
-image = "images/team-members/bissel/rachel-w.png"
+image = "images/team-members/bissell/rachel-w.png"
 position = "Product Manager"
 linkedin = "https://linkedin.com/in/rachelwang3331"
 
 [[teams.members]]
-name = "Tracy Li"
-image = "images/team-members/bissel/tracy.png"
-position = "Product Design Lead"
-linkedin = "https://linkedin.com/in/tracy-li-6a6467186"
-
-[[teams.members]]
 name = "Faiyad Rahman"
-image = "images/team-members/bissel/faiyad.png"
+image = "images/team-members/bissell/faiyad.png"
 position = "Project Developer"
 linkedin = "https://linkedin.com/in/faiyadrahman"
 
 [[teams.members]]
 name = "Yash Jha"
-image = "images/team-members/bissel/yash.png"
+image = "images/team-members/bissell/yash.png"
 position = "Project Developer"
 linkedin = "https://linkedin.com/in/yash-jha-314a76145"
 
 [[teams.members]]
 name = "Amal Mirza"
-image = "images/team-members/bissel/amal.png"
+image = "images/team-members/bissell/amal.png"
 position = "Product Designer"
 linkedin = "https://linkedin.com/in/amal-mirza-669b78229"
 
 [[teams.members]]
 name = "Raunak Agarwal"
-image = "images/team-members/bissel/raunak.png"
+image = "images/team-members/bissell/raunak.png"
 position = "Product Designer"
 linkedin = "https://linkedin.com/in/agar-raunak"
 
 [[teams.members]]
 name = "Sai Charan Arvapally"
-image = "images/team-members/bissel/sai.png"
+image = "images/team-members/bissell/sai.png"
 position = "Product Designer"
 linkedin = "https://linkedin.com/in/sai-charan-arvapally-0464a41b2"
-
-[[teams]]
-name = "Alzheimer's Calgary Team"
-[[teams.members]]
-name = "Duc Ho"
-image = "images/profile.png"
-position = "Project Lead"
-linkedin = "https://linkedin.com/in/alice"
-
-[[teams.members]]
-name = "Vanessa Huang"
-image = "images/profile.png"
-position = "Product Manager"
-linkedin = "https://linkedin.com/in/bob"
-
-[[teams.members]]
-name = "Carol Lee"
-image = "images/profile.png"
-position = "Product Design Lead"
-linkedin = "https://linkedin.com/in/carol"
-
-[[teams.members]]
-name = "Alastair Cottier"
-image = "images/profile.png"
-position = "Project Developer"
-linkedin = "https://linkedin.com/in/carol"
-
-[[teams.members]]
-name = "Thea Nguyen"
-image = "images/profile.png"
-position = "Project Developer"
-linkedin = "https://linkedin.com/in/carol"
-
-[[teams.members]]
-name = "Quoc Dinh"
-image = "images/profile.png"
-position = "Project Developer"
-linkedin = "https://linkedin.com/in/carol"
-
-[[teams.members]]
-name = "Shanemel Asuncion"
-image = "images/profile.png"
-position = "Project Developer"
-linkedin = "https://linkedin.com/in/carol"
 
 [[teams]]
 name = "Internal Tools Team"
