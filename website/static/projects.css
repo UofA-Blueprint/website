@@ -105,14 +105,14 @@ main {
   background-color: #f8f8f8;
 }
 
-.project-header {
+.projects-header {
   font-size: 2.25rem;
   text-align: center;
   margin: 0;
   color: var(--Dark-Blue, #0b2538);
 }
 
-.project-content {
+.projects-content {
   display: flex;
   flex-direction: row;
   justify-content: center;

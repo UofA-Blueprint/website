@@ -49,6 +49,7 @@ body {
 
 .card-header {
   font-size: 1.5rem;
+  text-align: center;
   margin: 0;
   color: var(--Dark-Blue, #0b2538);
 }

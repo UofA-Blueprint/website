@@ -10,10 +10,10 @@
       <div class="hero-container">
         <div class="hero-content-container">
           <h1 class="hero-header">Our Projects</h1>
-          <h3 class="hero-content">
+          <p class="hero-content">
             All of Blueprint’s work is open source because we believe in
             building technology that makes us more open and connected.
-          </h3>
+          </p>
           <div class="hero-button-container">
             <button class="hero-button-github">
               <img class="github-icon" src="{{ "images/git.png" | absURL }}"
@@ -35,16 +35,16 @@
       </div>
 
       <div class="current-projects-container">
-        <h2 class="project-header">Current Projects</h2>
-        <div class="project-content">
+        <h2 class="projects-header">Current Projects</h2>
+        <div class="projects-content">
           {{ range .Params.currentProjects }} {{- partial "card.html" . -}} {{
           end }}
         </div>
       </div>
 
       <div class="past-projects-container">
-        <h2 class="project-header">Past Projects</h2>
-        <div class="project-content">
+        <h2 class="projects-header">Past Projects</h2>
+        <div class="projects-content">
           {{ range .Params.pastProjects }} {{- partial "card.html" . -}} {{ end
           }}
         </div>
