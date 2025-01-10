@@ -1,60 +1,135 @@
-.forSponsorsHero {
-  display: flex;
-  flex-direction: row;
+main {
+  background-color: var(--Primary, #0078e8);
+  font-family: Lato;
+  width: 100%;
 }
 
-.left {
-  flex: 9;
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  width: 100%;
+  flex-wrap: nowrap;
+  height: 24rem;
+  padding: 2rem 5vw;
+}
+
+.hero-content-container {
+  display: flex;
   flex-direction: column;
-  padding-left: 66px;
-  padding-right: 70px;
+  align-items: start;
+  justify-content: center;
+  width: 40%;
+  gap: 1rem;
 }
 
-.btns {
-  margin-top: 5%;
+.hero-header {
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.hero-content {
+  color: white;
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.hero-image-container {
   display: flex;
-  flex-direction: row;
   align-items: center;
-}
-
-.right {
-  flex: 1;
-  padding-right: 67px;
-  padding-top: 10px;
+  justify-content: center;
   align-self: right;
-  margin-bottom: 1px;
 }
 
-.headerTxt {
-  font-family: Lato;
-  color: white;
-  font-size: 42px;
+.hero-image {
+  max-height: 20rem;
 }
 
-.txt {
-  margin-bottom: 1%;
-  font-family: Lato;
-  color: white;
-  font-size: 28px;
-  font-weight: 300;
-  letter-spacing: 0em;
+.sponsors-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem 5vw;
+  background-color: #ffffff;
 }
 
-.join {
-  color: #ffffff;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  background-color: inherit;
-  border: 1px solid white;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  padding: 8px 13px;
+.sponsors-header {
+  font-size: 2.25rem;
+  text-align: center;
+  margin: 0;
+  color: var(--Primary, #0078e8);
 }
 
-.join:hover {
-  background-color: #3f99ed;
+.sponsors-content {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 50%;
+  margin: 0;
+  color: var(--Dark-Gray, #333333);
 }
-.application-process {
+
+.sponsors-logos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 3rem;
+  gap: 5rem;
+  width: 100%;
+}
+
+.sponsors-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32rem;
+  max-width: 100%;
+  gap: 1rem;
+}
+
+.sponsor-logo-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  max-width: 100%;
+  height: 10rem;
+  aspect-ratio: 1;
+}
+
+.sponsor-logo-image-container img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sponsors-logo-name {
+  font-size: 1.125rem;
+  color: var(--Gray, #afafaf);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 3rem 5vw;
+  }
+
+  .hero-image-container {
+    display: none;
+  }
+
+  .hero-content-container {
+    width: 100%;
+  }
+}
+
+/* .application-process {
   background-color: #ffffff;
   display: flex;
   font-family: Lato;
@@ -90,62 +165,4 @@
 }
 .process-content {
   font-size: 18px;
-}
-.sponsors-section {
-  text-align: center;
-  background-color: #ffffff;
-  padding: 2% 0;
-  font-family: 'Lato', sans-serif;
-}
-
-.sponsors-section h2 {
-  color: var(--Primary, #0078E8);
-  font-family: Lato;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.sponsors-section p {
-  font-size: 18px;
-  color: #333333;
-  color: var(--Dark-Gray, #333);
-  text-align: center;
-  font-family: Lato;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.sponsors-logos {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 150px;
-  gap:20px;
-}
-
-.sponsor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 200px;
-  margin-left:200px;
-  margin-right:200px;
-  margin-bottom:50px;
-  
-}
-
-
-
-.sponsor p {
-  color: var(--Gray, #AFAFAF);
-  font-family: Lato;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
+} */

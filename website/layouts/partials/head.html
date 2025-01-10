@@ -1,9 +1,12 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>UofA BluePrint</title>
-<link rel="icon" href="{{ "images/logo.png" | absURL }}" type="image/x-icon"/>
-<link rel="stylesheet" href="{{ "/navbar.css" | absURL }}">
-<link rel="stylesheet" href="{{ "/footer-style.css" | absURL }}">
+<title>
+  {{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}
+</title>
+<link rel="icon" href="{{ "images/logo.png" | absURL }}" type="image/x-icon" />
+<link rel="stylesheet" href="{{ "/navbar.css" | absURL }}" /> <link
+rel="stylesheet" href="{{ "/footer-style.css" | absURL }}" /> <link
+rel="stylesheet" href="{{ "/styles.css" | absURL }}" />
 <link
   rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Lato&display=swap"

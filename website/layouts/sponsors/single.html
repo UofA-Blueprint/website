@@ -3,53 +3,60 @@
   <head>
     {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
     "/sponsors.css?version=51" | absURL }}">
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
-    </style>
   </head>
-  <body style="margin: 0px">
+  <body>
     <header>{{- partial "header.html" . -}}</header>
-    <main style="background-color: #0078e8">
-
-      <div class="forSponsorsHero">
-        <div class="left">
-          <h1 class="headerTxt">{{.Title}}</h1>
-          <h3 class="txt">{{.Content}}</h3>
-          <div class="btns">
-            <button class="join" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdNz37Y-dMaUKFPGssAsmgYgujbmsUTojaigaNujGucRMjgFQ/viewform?usp=sf_link'">{{.Params.join_button_text}}</button> 
-          </div>
+    <main>
+      <div class="hero-container">
+        <div class="hero-content-container">
+          <h1 class="hero-header">Our Sponsors and Partners</h1>
+          <p class="hero-content">
+            Our sponsors help what we do here at Blueprint a realty. Take a
+            moment and learn about them, you can also be part of the good work
+            Blueprint does.
+          </p>
         </div>
-        <div class="right">
-          <img style="width: 360px; height: auto;" src={{
-          "images/home-about-us-diagram.svg" | absURL }} alt="sponsors hero
-          img">
-        </div>
-      </div>
-
-      <div class="sponsors-section">
-        <h2>Our Sponsors</h2>
-        <p>A huge thank you to our partners and sponsors for supporting our team and mission.</p>
-        <div class="sponsors-logos">
-          <div class="sponsor">
-            <img src={{"images/image-2.png" | absURL }} alt="Gmail">
-            <p>Gmail</p>
-          </div>
-          <div class="sponsor">
-            <img src={{"images/image-3.png" | absURL }} alt="University of Alberta">
-            <p>University of Alberta</p>
-          </div>
-          <div class="sponsor">
-            <img src={{"images/image-4.png" | absURL }} alt="Technology Alberta">
-            <p>Technology Alberta</p>
-          </div>
-          <div class="sponsor">
-            <img src={{"images/image-5.png" | absURL }} alt="Notion">
-            <p>Notion</p>
-          </div>
+        <div class="hero-image-container">
+          <img class="hero-image" src={{ "images/home-about-us-diagram.svg" |
+          absURL }} alt="Sponsor Creative Graphic">
         </div>
       </div>
-      
 
+      <div class="sponsors-container">
+        <h2 class="sponsors-header">Our Sponsors</h2>
+        <p class="sponsors-content">
+          A huge thank you to our partners and sponsors for supporting our team
+          and mission.
+        </p>
+        <div class="sponsors-logos-container">
+          <div class="sponsors-logo">
+            <div class="sponsor-logo-image-container">
+              <img src={{"images/image-2.png" | absURL }} alt="Gmail">
+            </div>
+            <p class="sponsors-logo-name">Gmail</p>
+          </div>
+          <div class="sponsors-logo">
+            <div class="sponsor-logo-image-container">
+              <img src={{"images/image-3.png" | absURL }} alt="University of
+              Alberta">
+            </div>
+            <p class="sponsors-logo-name">University of Alberta</p>
+          </div>
+          <div class="sponsors-logo">
+            <div class="sponsor-logo-image-container">
+              <img src={{"images/image-4.png" | absURL }} alt="Technology
+              Alberta">
+            </div>
+            <p class="sponsors-logo-name">Technology Alberta</p>
+          </div>
+          <div class="sponsors-logo">
+            <div class="sponsor-logo-image-container">
+              <img src={{"images/image-5.png" | absURL }} alt="Notion">
+            </div>
+            <p class="sponsors-logo-name">Notion</p>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>{{- partial "footer.html" . -}}</footer>
   </body>

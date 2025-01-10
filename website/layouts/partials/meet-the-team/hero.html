@@ -1,16 +1,13 @@
-<div class="team-hero">
-  <div class="left">
-    <h1 class="headerTxt">{{.Title}}</h1>
-    <h3 class="txt">{{.Content}}</h3>
-    <div class="btns">
-      <button class="work" type="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdj6pIXtvptM6WJORuUAg1blJhqR-L5ZssCpkTlsqleJRJcag/viewform?usp=sf_link'">{{.Params.work_button_text}}</button>
-    </div>
+<div class="hero-container">
+  <div class="hero-content-container">
+    <h1 class="hero-header">Meet The Team</h1>
+    <p class="hero-content">
+      This team is a group of dedicated students looking to give back to their
+      community, while working through school at the University of Alberta.
+    </p>
   </div>
-  <div class="right">
-    <img
-      class="discussionImg"
-      src="{{ .Params.image_src | absURL }}"
-      alt="{{ .Params.image_src }}"
-    />
+  <div class="hero-image-container">
+    <img class="hero-image" src={{"images/about-us-discussion-website.svg" |
+    absURL }} alt="Team Creative Graphic" />
   </div>
 </div>

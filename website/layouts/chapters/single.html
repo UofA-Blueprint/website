@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
-        "/chapters.css" | absURL }}">
-        <style>
-            @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
-        </style>
-    </head>
-    <body style="margin: 0px">
-        <header>{{- partial "header.html" . -}}</header>
-        <main style="background-color: #0078e8">
-            <div class="chapter-div">
-                <div class="left">
-                    <h1 class="headerTxt">{{.Title}}</h1>
-                    <h3 class="txt">{{.Params.header_text}}</h3>
-                    <!-- <div class="btns">
-                <button class="work">JOIN US</button>
-              </div> -->
-                </div>
-                <div class="right"></div>
-            </div>
-        </main>
-        <footer>{{- partial "footer.html" . -}}</footer>
-    </body>
+  <head>
+    {{- partial "head.html" . -}} <link rel="stylesheet" href="{{
+    "/chapters.css" | absURL }}">
+  </head>
+  <body>
+    <header>{{- partial "header.html" . -}}</header>
+    <main>
+      <div class="hero-container">
+        <div class="hero-content-container">
+          <h1 class="hero-header">Our Chapters</h1>
+          <p class="hero-content">
+            Blueprint was founded at UC Berkeley in Spring 2013. Since then we
+            started scaling our impact and further mission by establishing
+            chapters in different colleges around the world, including us!
+          </p>
+        </div>
+      </div>
+
+      <div class="chapters-container">
+        <div class="chapter-container">
+          <h2 class="chapter-header">
+            Canada <img src="{{ "images/flags/canada-flag.svg" | absURL }}"
+            alt="Canada Flag" class="chapter-flag">
+          </h2>
+          <div class="chapter-content">
+            {{ range .Params.canadaChapters }} {{- partial "card.html" . -}} {{
+            end }}
+          </div>
+        </div>
+        <div class="chapter-container">
+          <h2 class="chapter-header">
+            USA <img src="{{ "images/flags/usa-flag.svg" | absURL }}" alt="USA
+            Flag" class="chapter-flag">
+          </h2>
+          <div class="chapter-content">
+            {{ range .Params.usaChapters }} {{- partial "card.html" . -}} {{ end
+            }}
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>{{- partial "footer.html" . -}}</footer>
+  </body>
 </html>
