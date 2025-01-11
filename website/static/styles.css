@@ -63,6 +63,7 @@ body {
 
 .card-content {
   font-size: 1.125rem;
+  text-align: center;
   margin: 0;
   color: var(--Dark-Gray, #333333);
 }

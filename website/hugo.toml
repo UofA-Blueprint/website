@@ -5,7 +5,7 @@ disableKinds = ['taxonomy', 'term']
 
 [params]
   currentProjects = [
-    { header = "Bissell Centre", blurb = "", image = "" },
-    { header = "Alzheimer Society of Calgary", blurb = "", image = "" },
-    { header = "Internal Tools", blurb = "", image = "" }
+    { header = "Bissell Centre", image = "images/projects/bissell-lg.png" },
+    { header = "Alzheimer Society of Calgary", image = "images/projects/asc-lg.png" },
+    { header = "Dish Zero", image = "images/projects/dish-zero-lg.png" }
   ]
