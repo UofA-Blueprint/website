@@ -21,6 +21,7 @@ main {
   align-items: start;
   justify-content: center;
   width: 40%;
+  min-width: 13.5rem;
   gap: 1rem;
 }
 
@@ -81,6 +82,7 @@ main {
 
 .hero-image {
   max-height: 20rem;
+  width: 100%;
 }
 
 .current-projects-container {

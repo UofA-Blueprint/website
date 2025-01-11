@@ -115,6 +115,11 @@ main {
 }
 
 @media (max-width: 768px) {
+  .hero-container {
+    background-image: none;
+    background-color: var(--Primary, #0078e8);
+  }
+
   .mission-container {
     align-items: start;
   }
