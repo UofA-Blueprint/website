@@ -291,6 +291,7 @@ Be cautious when modifying...
 
   .hero-content-container {
     width: 100%;
+    min-width: none;
   }
 
   .about-container {
@@ -303,6 +304,7 @@ Be cautious when modifying...
 
   .about-content-container {
     width: 100%;
+    min-width: none;
   }
 
   .projects-info-container {

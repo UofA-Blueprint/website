@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blueprint-website-48f38.web.app/'
 languageCode = 'en-us'
 title = 'UofA Blueprint'
 disableKinds = ['taxonomy', 'term']
