@@ -1,9 +1,9 @@
 #footer {
-  padding: 20px 60px;
+  padding: 3rem 10vw;
   background-color: var(--Dark-Gray, #333333);
   display: flex;
   flex-direction: row;
-  gap: 8%;
+  gap: 12%;
   justify-content: space-evenly;
   color: white;
   flex-wrap: wrap-reverse;
@@ -11,8 +11,8 @@
 }
 
 #footer-logo {
-  max-width: 200px;
-  margin-top: 10px;
+  width: 12.5rem;
+  margin-top: 0.625rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -21,14 +21,14 @@
 }
 
 #footer-logo p {
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 
 #footer-content {
-  max-width: 900px;
+  max-width: 56.25rem;
   display: flex;
   flex-grow: 1;
-  gap: 30px;
+  gap: 2rem;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
@@ -40,19 +40,25 @@
   min-width: max-content;
 }
 
-.h-top {
-  font-size: 20px;
+.footer-header {
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
 .content-links {
-  margin-top: 15px;
-  line-height: 10px;
+  margin-top: 1rem;
+  line-height: 0.625rem;
 }
 
-.footer-link {
+.content-links > p > a {
   color: white;
+  font-size: 1.125rem;
   text-decoration: none;
+}
+
+.content-links > p > :hover {
+  color: var(--Light-Blue, #cbe0f8);
+  text-decoration: underline var(--Light-Blue, #cbe0f8);
 }
 
 .insta {
@@ -62,14 +68,8 @@
   align-items: center;
 }
 
-a:link {
-  font-size: 18px;
-  color: white;
-  text-decoration: none;
-}
-
-a:visited {
-  font-size: 18px;
-  color: white;
-  text-decoration: none;
+@media (max-width: 328px) {
+  #footer {
+    padding: 3rem 5vw;
+  }
 }
