@@ -36,6 +36,24 @@ main {
   margin: 0;
 }
 
+.hero-button-container {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-button {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 13px;
+  cursor: pointer;
+}
+
 .hero-image-container {
   display: flex;
   align-items: center;
